@@ -1,0 +1,92 @@
+.background{
+    background-color: #2F3D53;
+    background-image: url(../img/sketches.png);
+    background-size: 470px;
+}
+
+body{
+    font-size: 13px;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+
+a{
+    cursor: pointer;
+    color: rgb(255, 150, 33);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active{
+    color: rgb(234, 255, 0);
+}
+
+
+
+
+#nav{
+    background-color: rgb(155, 0, 6);
+    border: solid 1px rgb(195, 128, 0);
+    padding:4px;
+    
+}
+#navactive{
+    background-color: rgb(120, 168, 213);
+    border: solid 1px rgb(255, 191, 47);
+    padding:4px;
+    color: #fffc03;
+    
+}
+
+#bkgc{
+    
+    background-color: rgb(92, 111, 130);
+    border: solid 1px black;
+    
+
+
+}
+
+#cel{
+    background-color: rgb(77, 95, 114);
+}
+
+#wip{
+    background-color: rgb(221 167 20);;
+}
+
+.bigimg{
+    position: relative;
+    top: 35px;
+    right: -61px;
+    transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -webkit-transform: scale(2.3);
+}
+
+h1{
+    text-indent: 10px;
+}
+
+.preview_img{
+    height: 500px;
+}
+
+.preview_title{
+    color: #ffaa00;
+}
+
+.boxWidth{
+    max-width: 800px;
+}
+
+.aboutBg{
+    background-image: url('../img/eric bg.png');
+    background-size: 290px;
+    background-repeat: no-repeat;
+    background-position: -70px -30px;
+}
