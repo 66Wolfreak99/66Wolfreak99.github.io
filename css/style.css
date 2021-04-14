@@ -59,13 +59,13 @@ a:active{
     background-color: rgb(221 167 20);;
 }
 
-.bigimg{
+.bigimg {
     position: relative;
-    top: 35px;
-    right: -61px;
+    top: 61px;
+    right: 49px;
     transform: scale(1.9);
     -ms-transform: scale(1.9);
-    -webkit-transform: scale(2.3);
+    -webkit-transform: scale(2.5);
 }
 
 h1{
