@@ -2,7 +2,7 @@
     background-color: #2F3D53;
     background-image: url(../img/sketches.png);
     background-size: 470px;
-    background-position: center;
+    background-position-x: center;
 }
 
 body{
