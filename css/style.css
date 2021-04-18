@@ -1,6 +1,21 @@
+@font-face {
+    font-family: ZenDots;
+    src: url('../fonts/ZenDots-Regular.ttf');
+  }
+
+.table-width{
+    width: 800px;
+}
+
 .background{
     background-color: #2F3D53;
     background-image: url(../img/wf_bg.png);
+    background-position-x: center;
+}
+
+.background-characters{
+    background-color: #2F3D53;
+    background-image: url(../img/sketches5.png);
     background-position-x: center;
 }
 
@@ -13,7 +28,7 @@
 }
 
 .titleFont{
-    font-family: 'Zen Dots', cursive; font-weight: 100;
+    font-family: 'ZenDots', cursive; font-weight: 100;
 }
 
 body{
@@ -44,8 +59,16 @@ a:active{
     background-color: rgb(155, 0, 6);
     border: solid 1px rgb(195, 128, 0);
     padding:4px;
+    font-family: ZenDots;
+    letter-spacing: 0.088em;
     
 }
+
+#navBreadcrumb{
+    font-family: ZenDots;
+    letter-spacing: 0.088em;
+}
+
 #navactive{
     background-color: rgb(120, 168, 213);
     border: solid 1px rgb(255, 191, 47);
