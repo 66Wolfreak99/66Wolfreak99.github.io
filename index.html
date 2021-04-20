@@ -11,7 +11,6 @@
     <link rel="icon" type="image/png" href="favicon.png" >
   
     <title>Home - 66Wolfreak99</title>
-    <script src="ajax.js"></script>
 
 
   </head>
@@ -126,22 +125,11 @@
                 
                 <tr>
                     <td>
-                        <p id="elements"> </p>
+                        
                     </td>
                 </tr>
 
             </tbody>
-        </table>
-        <table  class="table-width"   border="0" cellspacing="0" cellpadding="0">
-            <tr >
-                <td style="    font-size: 10px;
-                                padding-left: 230px;
-                                padding-right: 8px;
-                                padding-top: 8px; ">
-                    <h4 style="margin: 0; line-height: 1px;" >Latest Update</h4>
-                   <i> <p id="box"></p></i>
-                </td>
-            </tr>
         </table>
         
         
@@ -172,44 +160,8 @@
         </table>
     </center>
 
-    <script>
-
-
-
-
- 
-        // Initiate loading
-        function loadFirstOnly(el, res){
-                const json_res = JSON.parse(res);
-                el.innerHTML = "";
-        
-                    let u = json_res.updates[0];
-                    // Créer "un update"
-                    let entry = document.createElement("P"); 
-             
-                    entry.innerHTML = u.date + '(v: <small>' + u.version + '</small>)';
-                    //entry.innerHTML += '<td id="cel" valign="top" align="left">' + u.date + '(v: <small>' + u.version + '</small>)';
-        
-        
-                    // Print chaque nouveau feature
-                    u.content.forEach(c => {
-                        entry.innerHTML += (", "+c);
-                    });
-        
-                    // Ajout d'un élément
-                    el.appendChild(entry);
-            }
-            ajax("update_log.txt", "GET", "", box, loadFirstOnly)
-        
-        
-        
-        </script>  
-
     
 
+  </body>
 
-
-
-
-</body>
 </html>
