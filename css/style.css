@@ -4,6 +4,9 @@
   }
 
 @media screen and (max-width: 700px) {
+    body{
+        margin: 0;
+    }
     .table-width{
         width: 100% !important;
     }
@@ -14,19 +17,24 @@
         width: 5px;
     }
     .banner {
-        background-position-y: -2px !important;
-        background-size: 440px !important;
+        background-position-y: bottom !important;
+        background-size: 100% !important;
     }
     #nav {
-        padding: 9px !important;
+        padding: 9px 3px 9px 3px !important;
+    }
+    #nav, #navBreadcrumb{
+        font-size: 0.8em;
+        line-height: 29px;
     }
 
     .menu-padding{
         padding: 6px 0px 6px 0px;
+        
     }
 
     .navbar-padding{
-        padding: 16px 8px 16px 8px;
+        padding: 16px 2px 16px 2px;
     }
 
     p{
@@ -35,17 +43,58 @@
 
     .about-about{
         display: block;
-    width: 100%;
-    height: 540px;
+        width: auto;
+        height: 583px;
     }
     .about-text{
         display: block;
         padding-top: 0;
         margin-top: 8px;
         position: absolute;
-        top: 285px;
+        top: 262px;
+    }
+
+    .about-text p{
+        font-size: 1.1em;
+    }
+
+    .char-img-block{
+        display: block;
+        width: auto;
+    }
+    .char-desc-block{
+        display: block;
+    }
+    #censor{
+        width: 69px;
+    }
+
+    .links-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .links-flex a{
+        margin: 6px 0 6px 0;
+    }
+    .links-flex img {
+        position: relative;
+        top: 6px;
+    }
+
+    .links-flex span{
+        margin-right: 0px !important;
+    }
+
+    .nothing-top-space{
+        padding-bottom: 2vh !important;
+      }
+
+    .nothing{
+
+        padding: 50px !important;
     }
 }
+
 
 .table-width{
     width: 800px;
@@ -196,3 +245,13 @@ h1{
     background-repeat: no-repeat;
     background-position: -91px -60px;
 }
+
+.nothing-top-space{
+    padding-bottom: 17vh;
+  }
+
+  .nothing{
+    background: radial-gradient(ellipse at center, rgb(119 119 119) 0%,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%);
+    text-align: center;
+    padding: 115px;
+  }
