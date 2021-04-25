@@ -93,6 +93,16 @@
 
         padding: 50px !important;
     }
+
+    .about-img-flex{
+        display: block;
+        width: auto!important;
+        margin-bottom: 5px;
+    }
+
+    .about-text-flex{
+        display: block;
+    }
 }
 
 
@@ -143,6 +153,11 @@ a{
 }
 a:active{
     color: rgb(234, 255, 0);
+}
+
+.about-img-flex{
+    width: 200px;
+    text-align: center;
 }
 
 .not-wip{
