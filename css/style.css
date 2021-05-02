@@ -38,6 +38,7 @@
     .banner {
         background-position-y: bottom !important;
         background-size: 100% !important;
+        margin-bottom: -4px;
     }
     #nav {
         padding: 9px 3px 9px 3px !important;
@@ -103,7 +104,9 @@
 
     .links-flex span{
         margin-right: 0px !important;
+        display: none;
     }
+    
 
     .nothing-top-space{
         padding-bottom: 2vh !important;
@@ -123,7 +126,39 @@
     .about-text-flex{
         display: block;
     }
+
+    .art-header{
+        background-position: center left !important;
+    }
+
+    .art-column{
+        display: block;
+    }
+
+    .art-section{
+        padding: 4px !important;
+    }
+
+    .art-legend{
+        height: 40px !important;
+        background: rgb(0 0 0 / 51%)!important;
+    }
+
+    .art-legend-small{
+        display: none;
+    }
+
+    .art-links{
+        width: 100% !important;
+    }
 }
+
+
+
+
+
+
+
 
 
 .table-width{
@@ -173,6 +208,13 @@ a{
 }
 a:active{
     color: rgb(234, 255, 0);
+}
+
+.furaffinity::after{
+    content: " (18+)";
+    font-size: 9px;
+    color: white;
+    font-weight: 100;
 }
 
 .about-img-flex{
@@ -308,3 +350,129 @@ h1{
     text-align: center;
     padding: 115px;
   }
+
+  .art-header{
+    vertical-align: top;
+    height: 248px;
+    background-image: url(../img/Art_bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.art-header .titleFont{
+    text-shadow: 2px 2px 3px black, -2px -2px 3px black, -2px 2px 3px black, 2px -2px 3px black;
+}
+
+.art-header-gradient{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to bottom, rgba(92,111,130,0) 0%,rgba(92,111,130,0.47) 28%,rgba(92,111,130,0.87) 58%,rgba(92,111,130,1) 89%,rgba(92,111,130,1) 100%); 
+    left: 0;
+}
+
+
+    .art-section{
+            padding: 13px;
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+        }
+
+
+        .art-section-img-container{
+            width:fit-content;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            
+            
+        }
+
+        .art-legend{
+            clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+            background: rgb(0 0 0 / 88%);
+            height: 0px;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            transition: all 0.2s ease-out;
+        }
+        
+
+        .art-legend-small{
+            background: rgba(0, 0, 0, 0.51);
+            height: 12px;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            line-height: 9px;
+            transition: all 0.3s cubic-bezier(.48,-0.01,.97,.43);
+        }
+
+        .art-img{
+            width: 100%;
+            margin-bottom: -2px;
+        }
+
+        .art-legend .title{
+            font-size: 16px;
+            padding-left: 6px;
+        }
+
+        .art-legend .date{
+            font-size: 10px;
+            font-style: italic;
+            padding-left: 13px;
+        }
+
+        .art-legend-small .title{
+            font-size: 9px;
+            padding: 3px;
+        }
+
+        .art-section-img-container:hover .art-legend, .art-section-img-container a:focus + .art-legend{
+            height: 40px;
+            transition: all 0.2s ease-out;
+        }
+        .art-section-img-container:hover .art-legend-small, .art-section-img-container a:focus + .art-legend +.art-legend-small{
+            height: 0px;
+            transition: all 0.1s ease-out;
+        }
+
+        .art-links{
+            width: 110px;
+            text-align: center;
+            display: inline-block;
+        }
+        .art-links-container {
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+
+/* Modern 
+
+#nav{
+    box-shadow: inset 0px 1px 0px #ff63088a, inset 0 -1px #afd7ff9e;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgb(122 1 5), rgb(184 0 7));
+    border: none;
+}
+#cel{
+    background: linear-gradient(0deg, rgb(59 72 87), rgb(79 98 118));
+    border-top: solid 1px #b4d9ff7a; 
+    border-bottom: solid 1px #1c354fb8;
+}
+.border-top{
+    border-top: solid 1px #b4d9ff7a; 
+}
+.border-bottom{
+    border-bottom: solid 1px #1c354fb8;
+}*/
