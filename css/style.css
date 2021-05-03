@@ -22,136 +22,7 @@
     
 }
 
-@media screen and (max-width: 700px) {
-    body{
-        margin: 0;
-    }
-    .table-width{
-        width: 100% !important;
-    }
-    .bigimg{
-        display: none;
-    }
-    .index-side-width{
-        width: 5px;
-    }
-    .banner {
-        background-position-y: bottom !important;
-        background-size: 100% !important;
-        margin-bottom: -4px;
-    }
-    #nav {
-        padding: 9px 3px 9px 3px !important;
-    }
-    #nav, #navBreadcrumb{
-        font-size: 0.8em;
-        line-height: 29px;
-    }
 
-    .menu-padding{
-        padding: 6px 0px 6px 0px;
-        
-    }
-
-    .navbar-padding{
-        padding: 16px 2px 16px 2px;
-    }
-
-    p{
-        font-size: 1.3em;
-    }
-
-    .about-about{
-        display: block;
-        width: auto;
-        height: 700px;
-    }
-    .about-text{
-        display: block;
-        padding-top: 0;
-        margin-top: 8px;
-        position: absolute;
-        top: 262px;
-    }
-
-    .about-text p{
-        font-size: 1.1em;
-    }
-
-    
-    .char-img-block{
-        display: block;
-        width: auto;
-    }
-    .char-desc-block{
-        display: block;
-    }
-    #censor{
-        width: 69px;
-    }
-
-    .links-flex{
-        display: flex;
-        flex-direction: column;
-    }
-    .links-flex a{
-        margin: 6px 0 6px 0;
-    }
-    .links-flex img {
-        position: relative;
-        top: 6px;
-    }
-
-    .links-flex span{
-        margin-right: 0px !important;
-        display: none;
-    }
-    
-
-    .nothing-top-space{
-        padding-bottom: 2vh !important;
-      }
-
-    .nothing{
-
-        padding: 50px !important;
-    }
-
-    .about-img-flex{
-        display: block;
-        width: auto!important;
-        margin-bottom: 5px;
-    }
-
-    .about-text-flex{
-        display: block;
-    }
-
-    .art-header{
-        background-position: center left !important;
-    }
-
-    .art-column{
-        display: block;
-    }
-
-    .art-section{
-        padding: 4px !important;
-    }
-
-    .art-legend{
-        height: 40px !important;
-        background: rgb(0 0 0 / 51%)!important;
-    }
-
-    .art-legend-small{
-        display: none;
-    }
-
-    .art-links{
-        width: 100% !important;
-    }
-}
 
 
 
@@ -394,8 +265,7 @@ h1{
         }
 
         .art-legend{
-            clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-            background: rgb(0 0 0 / 88%);
+            background: rgba(0, 0, 0,  0.88);
             height: 0px;
             width: 100%;
             position: absolute;
@@ -422,17 +292,33 @@ h1{
         .art-legend .title{
             font-size: 16px;
             padding-left: 6px;
+            opacity: 0;
+            transition: all 0.2s ease-out;
         }
 
         .art-legend .date{
             font-size: 10px;
             font-style: italic;
             padding-left: 13px;
+            opacity: 0;
+            transition: all 0.2s ease-out;
         }
 
         .art-legend-small .title{
             font-size: 9px;
             padding: 3px;
+        }
+
+        .art-legend-links{
+            position: absolute;
+            right: 45px;
+            top: 8px;
+            width: 80px;
+        }
+        
+        .art-section-img-container:hover .art-legend .title, .art-section-img-container:hover .art-legend .date{
+            opacity: 1;
+            transition: all 0.2s ease-out;
         }
 
         .art-section-img-container:hover .art-legend, .art-section-img-container a:focus + .art-legend{
@@ -452,6 +338,14 @@ h1{
         .art-links-container {
             display: flex;
             justify-content: center;
+        }
+
+        .art-advice-d{
+            display: initial;
+        }
+    
+        .art-advice-m{
+            display: none;
         }
 
 

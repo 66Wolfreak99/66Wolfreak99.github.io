@@ -1,0 +1,143 @@
+@media screen and (max-width: 700px) {
+    body{
+        margin: 0;
+    }
+    .table-width{
+        width: 100% ;
+    }
+    .bigimg{
+        display: none;
+    }
+    .index-side-width{
+        width: 5px;
+    }
+    .banner {
+        background-position-y: bottom ;
+        background-size: 100% ;
+        margin-bottom: -4px;
+    }
+    #nav {
+        padding: 9px 3px 9px 3px ;
+    }
+    #nav, #navBreadcrumb{
+        font-size: 0.8em;
+        line-height: 29px;
+    }
+
+    .menu-padding{
+        padding: 6px 0px 6px 0px;
+        
+    }
+
+    .navbar-padding{
+        padding: 16px 2px 16px 2px;
+    }
+
+    p{
+        font-size: 1.3em;
+    }
+
+    .about-about{
+        display: block;
+        width: auto;
+        height: 700px;
+    }
+    .about-text{
+        display: block;
+        padding-top: 0;
+        margin-top: 8px;
+        position: absolute;
+        top: 262px;
+    }
+
+    .about-text p{
+        font-size: 1.1em;
+    }
+
+    
+    .char-img-block{
+        display: block;
+        width: auto;
+    }
+    .char-desc-block{
+        display: block;
+    }
+    #censor{
+        width: 69px;
+    }
+
+    .links-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .links-flex a{
+        margin: 6px 0 6px 0;
+    }
+    .links-flex img {
+        position: relative;
+        top: 6px;
+    }
+
+    .links-flex span{
+        margin-right: 0px ;
+        display: none;
+    }
+    
+
+    .nothing-top-space{
+        padding-bottom: 2vh ;
+      }
+
+    .nothing{
+
+        padding: 50px ;
+    }
+
+    .about-img-flex{
+        display: block;
+        width: auto;
+        margin-bottom: 5px;
+    }
+
+    .about-text-flex{
+        display: block;
+    }
+
+    .art-header{
+        background-position: center left ;
+    }
+
+    .art-column{
+        display: block;
+    }
+
+    .art-section{
+        padding: 4px ;
+    }
+
+    .art-legend{
+        height: 40px ;
+        background: rgb(0 0 0 / 51%);
+    }
+
+    .art-legend .title, .art-legend .date{
+        opacity: 1 ;
+    }
+
+    .art-legend-small{
+        display: none;
+    }
+
+    .art-links{
+        width: 100%;
+    }
+
+    .art-advice-d{
+        display: none ;
+    }
+
+    .art-advice-m{
+        display: initial ;
+    }
+    
+}
