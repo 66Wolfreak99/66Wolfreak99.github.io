@@ -285,7 +285,7 @@
     <script>
         function loadDataResult(el, res){
             const json_res = JSON.parse(res);
-            el.innerHTML = "";
+            el.innerHTML = "<tr class='current'></tr>";
             
             // Prendre tout les éléments de la liste "update"
             json_res.updates.forEach(u => {
@@ -297,7 +297,7 @@
                 td.id = "cel";
                 td.valign = "top";
                 td.align = "left";
-                td.innerHTML = u.date + '(v: <small>' + u.version + '</small>)';
+                td.innerHTML = u.date /* + '(v: <small>' + u.version + '</small>)'*/;
                 //entry.innerHTML += '<td id="cel" valign="top" align="left">' + u.date + '(v: <small>' + u.version + '</small>)';
     
                 let sub_entry = document.createElement("UL"); 

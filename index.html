@@ -146,10 +146,10 @@
         <table  class="table-width"   border="0" cellspacing="0" cellpadding="0">
             <tr >
                 <td style="    font-size: 10px;
-                                padding-left: 230px;
+                                padding-left: 250px;
                                 padding-right: 8px;
                                 padding-top: 8px; ">
-                    <h4 style="margin: 0; line-height: 1px;" >Latest Update</h4>
+                    <h4 style="margin: 0; line-height: 1px;" >Latest Update: <span id="date"></span></h4>
                    <i> <p id="box"></p></i>
                 </td>
             </tr>
@@ -244,18 +244,34 @@
                 // Créer "un update"
                 let entry = document.createElement("P"); 
          
-                entry.innerHTML = u.date + '(v: <small>' + u.version + '</small>)';
+               // entry.innerHTML = u.date + '(v: <small>' + u.version + '</small>)';
                 //entry.innerHTML += '<td id="cel" valign="top" align="left">' + u.date + '(v: <small>' + u.version + '</small>)';
-    
-    
+                    
                 // Print chaque nouveau feature
                 u.content.forEach(c => {
-                    entry.innerHTML += (", "+c);
+                    entry.innerHTML += (" / "+c);
                 });
+
+                // Ajout d'un élément
+                el.appendChild(entry);
+        }
+
+        function loadDateFirstOnly(el, res){
+            const json_res = JSON.parse(res);
+            el.innerHTML = "";
+    
+                let u = json_res.updates[0];
+                // Créer "un update"
+                let entry = document.createElement("SPAN"); 
+         
+                entry.innerHTML = u.date /*+ '(v: <small>' + u.version + '</small>)'*/;
+                //entry.innerHTML += '<td id="cel" valign="top" align="left">' + u.date + '(v: <small>' + u.version + '</small>)';
+    
     
                 // Ajout d'un élément
                 el.appendChild(entry);
         }
+        ajax("update_log.txt", "GET", "", date, loadDateFirstOnly)
         ajax("update_log.txt", "GET", "", box, loadFirstOnly)
     
     

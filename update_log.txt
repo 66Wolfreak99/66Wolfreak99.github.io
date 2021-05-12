@@ -1,16 +1,98 @@
 {
   "updates": [
     {
-      "date": "April 20 2021",
-      "version": "1.1",
+      "date": "May 12 2021",
+      "version": "",
       "content": [
-          "Hey there! Now the latest update will appear on the homepage! Pretty cool, huh?"
+          "Minor UI change in Updates page",
+          "I've released my first album, Rainfall! It's Drum n Bass! It's not perfect, as i'm still inexperienced when it comes to making music, but i'm pretty proud of it nonetheless!",
+          "You can download my single for free <a href='./home-banner/TWW-Rainfall/TWW_Rainfall.zip'>here</a>!"
+
+        ]
+    },
+
+    {
+      "date": "May 6 2021",
+      "version": "",
+      "content": [
+          "Added art for Skript's bio page"
+
+        ]
+    },
+    {
+      "date": "May 3 2021",
+      "version": "",
+      "content": [
+          "Minor changes in the Art page",
+          "Changed some of the images in the Art page to more SFW ones",
+          "Reorganized my CSS code a bit"
+
+        ]
+    },
+
+    {
+      "date": "May 2 2021",
+      "version": "",
+      "content": [
+          "Reinstated the <a href='./art.html'>Art</a> page! Check it out!",
+          "Art page made responsive",
+          "Made a cool header image for the Art page"
+
+        ]
+    },
+
+    {
+      "date": "April 29 2021",
+      "version": "",
+      "content": [
+          "Some more tweaksies",
+          "Added <a href='./characters/char_skript.html'>Skript</a>'s bio page! No art yet but that's coming soon!",
+          "Added Likes/Dislikes on my OC bios",
+          "Made the site a tad more 'responsive'"
+
+        ]
+    },
+
+    {
+      "date": "April 25 2021",
+      "version": "",
+      "content": [
+          "Minor tweakaroonies",
+          "About page now has an F.A.Q!"
+
+        ]
+    },
+
+    {
+      "date": "April 23 2021",
+      "version": "",
+      "content": [
+          "I made the website more mobile-friendly! ;3"
+
+        ]
+    },
+
+    {
+      "date": "April 22 2021",
+      "version": "",
+      "content": [
+          "More minor tweaks lol",
+          "Finished and added <a href='./characters/char_andy.html'>Andromeda</a>'s bio page!"
+        ]
+    },
+
+    {
+      "date": "April 20 2021",
+      "version": "",
+      "content": [
+          "Hey there! Now the latest update will appear on the homepage! Pretty cool, huh?",
+          "Minor tweaks. The latest update is now highlighted"
         ]
     },
 
     {
       "date": "April 19 2021",
-      "version": "1.1",
+      "version": "",
       "content": [
           "Moved Home nav buttons on top"
         ]
@@ -18,7 +100,7 @@
 
     {
       "date": "April 18 2021",
-      "version": "1.1",
+      "version": "",
       "content": [
           "Added a bunch more OCs",
           "Created a placeholder page",
@@ -28,7 +110,7 @@
     
     {
       "date": "April 17 2021",
-      "version": "1.1",
+      "version": "",
       "content": [
           "Reorganized the Characters pages",
           "Added some thumbnails for the characters",
@@ -40,16 +122,16 @@
 
     {
       "date": "April 15 2021",
-      "version": "1.1",
+      "version": "",
       "content": [
-          "Completed Zack's bio",
+          "Completed <a href='./characters/char_zack.html'>Zack</a>'s bio",
           "Various corrections"
         ]
     },
     
     {
       "date": "April 14 2021",
-      "version": "1.1",
+      "version": "",
       "content": [
           "My website has been hosted on Github Pages and is now online!"
         ]
@@ -57,7 +139,7 @@
 
     {
       "date": "April 13 2021",
-      "version": "1.1",
+      "version": "",
       "content": [
           "Layout update",
           "Removed redundant Art page, just use the art links instead",
@@ -67,7 +149,7 @@
 
     {
       "date": "November 2 2020",
-      "version": "1.1",
+      "version": "",
       "content": [
           "Page history... page created!",
           "Art, About and Characters pages have been created!"
@@ -76,7 +158,7 @@
 
     {
       "date": "October 19 2020",
-      "version": "1.1",
+      "version": "",
       "content": [
           "Project start!"
         ]
