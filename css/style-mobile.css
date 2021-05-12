@@ -73,14 +73,14 @@
     .links-flex a{
         margin: 6px 0 6px 0;
     }
-    .links-flex img {
+   /* .links-flex img {
         position: relative;
         top: 6px;
-    }
+    }*/
 
     .links-flex span{
         margin-right: 0px ;
-        display: none;
+       
     }
     
 
@@ -139,5 +139,21 @@
     .art-advice-m{
         display: initial ;
     }
+
+.count-display{
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    left: -34px;
+    width: auto;
+}
+
+.count-display img{
+    width: 100px;
+    
+}
+.count-display a + br + small{
+    display: none;
+}
     
 }
