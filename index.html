@@ -6,9 +6,13 @@
     
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
     <link rel="icon" type="image/png" href="favicon.png" >
+
+    <link rel="stylesheet" href="./home-banner/TWW-Rainfall/rainfall.css">
   
     <title>Home - 66Wolfreak99</title>
     <script src="ajax.js"></script>
@@ -37,7 +41,7 @@
                     <td align="right" valign="bottom">
 
                         <a href="http://www.mabsland.com/index2.html">
-                            <img src="img/censor/Censor_14c.gif" alt="Censor_14.gif">
+                            <img id="censor" src="img/censor/Censor_14c.gif" alt="Censor_14.gif">
                         </a>
     
                     </td>
@@ -55,17 +59,18 @@
                         <center>
 
                             <!-- Menu -->
-                            <table  border="0" cellspacing="10" cellpadding="0">
+                            <table class="menu-padding"  border="0" cellspacing="10" cellpadding="0">
                                 <tbody>
                                     <tr>
                                         
                                         
                                         
-                                    <!--<td>
-                                            <a id="nav" href="art.html" > Art</a>
-                                        </td>--> 
+                                    
                                         <td>
                                             <a id="nav" href="about.html" title="Go learn a little bit about me!">About</a>
+                                        </td>
+                                        <td>
+                                            <a id="nav" href="art.html" > Art</a>
                                         </td>
                                         <td>
                                             <a id="nav" href="characters.html" title="Check out my furry OCs!">Characters</a>
@@ -85,7 +90,7 @@
 
                 <tr>
 
-                    <td width="150px"  rowspan="1" valign="middle">
+                    <td class="index-side-width" width="150px"  rowspan="1" valign="middle">
                         <img class="bigimg" width="150px" src="img/eric_drawing.png" alt="">
                     </td>
 
@@ -95,16 +100,17 @@
                   <!--  Welcome to my little home page! here is a place where i can display my art characters and comics in one place.--> 
                         <p>
                             Hello there wanderer! Welcome to my homepage! I'm a furry artist from France and also a web developer! 
-                            And this page is just a cool little thing where I link to my art pages as well as put in some other cool stuff
+                            And this page is just a cool little thing where I link to my art pages as well as put in some other cool stuff!
+                             <br>It's still a wip so some things are still missing or not final
                         </p>
 
                         ​<br> <br>
 
-                        There's not much here but please, enjoy your stay! <br> And watch out for the big bad wolf.....
+                        <p>There's not much here but please, enjoy your stay! <br> And watch out for the big bad wolf.....</p>
                         <br><br>
                         
                     </td>
-                    <td width="150px"  rowspan="1" valign="middle">
+                    <td class="index-side-width" width="150px"  rowspan="1" valign="middle">
                         
                     </td>
                     
@@ -121,10 +127,11 @@
                                 My art links
                             </h3>
                         </p>
-                        
-                        <a style="padding: 0 5px 0 5px;" href="https://www.deviantart.com/66wolfreak99"><img border="0" height="25px" src="img/deviantart.png" alt="deviantart.png"> DeviantArt</a> 
-                        <a style="padding: 0 5px 0 5px;" href="https://twitter.com/66Wolfreak99"><img border="0" height="25px" src="img/twitter.png" alt="twitter.png"> Twitter</a> 
-                        <a style="padding: 0 5px 0 5px;" href="https://www.furaffinity.net/user/boredwolf/"><img border="0" height="25px" src="img/furaff.png" alt="furaff.png"> Furaffinity</a> <span style="font-size: 10px;">(contains NSFW)</span>
+                        <div class="links-flex">
+                            <a title="Check out my art on Deviantart!" style="padding: 0 5px 0 5px;" href="https://www.deviantart.com/66wolfreak99"><img border="0" height="25px" src="img/deviantart.png" alt="deviantart.png"> DeviantArt</a> 
+                            <a title="Follow me on twitter!" style="padding: 0 5px 0 5px;" href="https://twitter.com/66Wolfreak99"><img border="0" height="25px" src="img/twitter.png" alt="twitter.png"> Twitter</a> 
+                            <a title="Check out my art on Furaffinity! (Warning! Contains NSFW)" class="furaffinity" style="padding: 0 5px 0 5px;" href="https://www.furaffinity.net/user/boredwolf/"><img border="0" height="25px" src="img/furaff.png" alt="furaff.png"> Furaffinity</a>
+                        </div>
                     </td>
                 </tr>
                 
@@ -149,6 +156,49 @@
         </table>
         
         
+    </center>
+ 
+    <center>
+      
+        <table  class="table-width home-banner-ad" >
+
+
+            <tr>
+                <td class="banner-container">
+                    
+
+                    <div class="img-section" >
+                        <div class="dark-gradient"></div>
+
+                        <img id="kodi" src="./home-banner/TWW-Rainfall/Kodi.png" alt="">
+                        <img id="tww" src="./home-banner/TWW-Rainfall/Rainfal-text-TWW.png" alt="">
+                        <img id="rainfall" src="./home-banner/TWW-Rainfall/Rainfal-text-RAINFALL.png" alt="">
+
+                        <div class="text-container">
+
+                            <p id="ad-title" style="bottom: 49px;left: 14px;" class="banner-message">
+                               It's my very first music release!  Check it out!
+                            </p>
+                            <p id="ad-text-1" style="bottom: 26px;left: 45px; font-weight: 200;" class="banner-message">
+                                - Lowrez Monster
+                            </p>
+                            <p id="ad-text-2" style="bottom: 6px;left: 75px; font-weight: 200;" class="banner-message">
+                                - Rainfall
+                            </p>
+                        </div>
+
+                        <a href="./home-banner/TWW-Rainfall/TWW_Rainfall.zip"><button id="banner-button" > Free Download </button></a>
+                        
+                       
+
+
+
+                    </div>
+
+                </td>
+            </tr>
+
+        </table>
     </center>
 
     
