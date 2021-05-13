@@ -5,6 +5,12 @@
     src: url('../fonts/ZenDots-Regular.ttf');
 }
 
+@media screen and (max-width:940px){
+    .bigimg{ 
+        right: -9px !important;
+    }
+}
+
 @media screen and (max-width:825px) {
     .home-banner-ad {
         margin-top: 0px !important;
@@ -30,10 +36,10 @@
     text-align: center;
     margin-top: 10px;
     width: 100%;
+    
 }
 .count-display a + br + small{
-    display: block;
-    position: absolute;
+    display: inline;
     margin: auto;
     text-align: center;
     width: 100%;
@@ -41,13 +47,15 @@
     margin-top: -10px;
     transition: all 0.2s ease-in-out;
     z-index: -1;
+    position: relative;
+    bottom: 10px;
 }
 
 .count-display a:hover + br + small{
-    position: absolute;
     opacity: 1;
     margin-top: 0px;
     transition: all 0.2s ease-in-out;
+    bottom:0;
 }
 
 
@@ -159,6 +167,9 @@ a span {
 
 .current+tr td {
     background: linear-gradient(90deg, rgb(177 118 75) 40px, transparent 300px);
+    background: -moz-linear-gradient(left, rgba(177,118,75,1) 40px, rgba(0,0,0,0) 300px); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(177,118,75,1) 40px,rgba(0,0,0,0) 300px); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(177,118,75,1) 40px,rgba(0,0,0,0) 300px); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-left: 2px solid #ff9621;
     position: relative;
 }
@@ -210,7 +221,7 @@ a span {
 }
 
 #wip {
-    background-color: rgb(221 167 20);
+    background-color: #dda714;
     ;
 }
 
@@ -219,14 +230,19 @@ a span {
 
 .bigimg {
     position: relative;
-    top: 64px;
-    right: 54px;
+    top: 75px;
+    right: 51px;
     transform: scale(2.9);
     -ms-transform: scale(2.9);
-    -webkit-transform: scale(2.9);
+    -webkit-transform: scale(3);
     z-index: 1;
 
     
+}
+
+.links-flex{
+    z-index: 2;
+    position: relative;
 }
 
 .lastUpdate{
@@ -271,7 +287,16 @@ h1 {
     padding: 115px;
 }
 
-
+.character-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; 
+    justify-content: space-around;
+    justify-content: space-evenly;
+    max-width: 800px;
+    width: inherit;
+    
+}
 
 
 .art-header {
