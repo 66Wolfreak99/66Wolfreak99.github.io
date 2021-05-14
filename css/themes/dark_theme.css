@@ -1,0 +1,34 @@
+a {
+    color: #ff2121;
+}
+
+a:active {
+    color: #ababab;
+}
+
+#bkgc {
+    background-color: rgb(25 25 25);
+    border: solid 1px black;
+}
+#cel {
+    background-color: rgb(45 45 45);
+}
+
+#nav {
+    background-color: rgb(2 2 2);
+    border: solid 1px rgb(121 121 121);
+}
+
+.background, .background-characters {
+    background-color: #060606;
+}
+
+.aboutBg, .about-text{
+    background-color: #585858;
+}
+
+.art-header-gradient {
+
+    background: linear-gradient(to bottom, #5c6f8200 0%, #1919196e 28%, #191919d9 58%, #191919 89%, #191919 100%);
+
+}

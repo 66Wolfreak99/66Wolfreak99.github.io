@@ -1,0 +1,52 @@
+a {
+    color: #b4c7d9;
+}
+
+a:hover{
+    color: #e9f2fa;
+}
+
+a:active {
+    color: #e8c446;
+}
+
+#bkgc {
+    background-color: #152F56;
+    border: solid 1px black;
+}
+#cel {
+    background-color: #1F3C67;
+}
+
+#nav {
+    background-color: #152F56;
+    border: none;
+}
+
+.background, .background-characters {
+    background-color: #020C1B;
+}
+
+.aboutBg, .about-text{
+    background-color: #32507d;
+}
+
+.current+tr td::before {
+    background: #487ac3;
+    color: #ffffff;
+
+}
+
+.current+tr td {
+    background: linear-gradient( 90deg, #154c9c 40px, transparent 300px);
+    background: -moz-linear-gradient(left, #154c9c 40px, rgba(0,0,0,0) 300px);
+    background: -webkit-linear-gradient(left, #154c9c 40px,rgba(0,0,0,0) 300px);
+    background: linear-gradient(to right, #154c9c 40px,rgba(0,0,0,0) 300px);
+    border-left: 2px solid #487ac3;
+
+}
+
+.art-header-gradient {
+    background: linear-gradient(to bottom, #5c6f8200 0%, #152f56bf 63%, #152f56 95%);
+
+}

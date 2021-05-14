@@ -1,0 +1,33 @@
+a {
+    color: #dce466;
+}
+
+a:hover{
+    color: #e9f2fa;
+}
+
+a:active {
+    color: #ffc800;;
+}
+
+#bkgc {
+    background-color: #638a5e;
+    border: solid 1px #7b8a1a;
+}
+#cel {
+    background-color: #7c924e;
+}
+
+#nav {
+    background-color: #98710f;
+    border: solid 1px #ffd007;
+}
+
+.background, .background-characters {
+    background-color: #4a5d35;
+}
+
+.art-header-gradient {
+    background: linear-gradient(to bottom, #5c6f8200 0%, #638a5e70 28%, #638a5ee0 58%, #638a5e 89%, #638a5e 100%);
+
+}

@@ -2,6 +2,15 @@ var update = {
     "updates": [
 
       {
+        "date": "May 14 2021",
+        "content": [
+            "I've completed and added <a href='./characters/char_meihal.html'>Meihal</a>'s bio! Check it out! ",
+            "I've reorganized my messy CSS page to make it easier on myself. "
+          ]
+      },
+      
+
+      {
         "date": "May 12 2021",
         "content": [
             "I've added a hit counter on the home page. It counts how many visits it gets!",
@@ -192,7 +201,7 @@ if(dom){
          let entry = document.createElement("TR"); 
     
          let td = document.createElement("TD");
-         td.id = "cel";
+         td.classList.add("cel");
          td.valign = "top";
          td.align = "left";
          td.innerHTML = u.date /* + '(v: <small>' + u.version + '</small>)'*/;
