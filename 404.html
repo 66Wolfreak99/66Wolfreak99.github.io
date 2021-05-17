@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="FR-fr">
+
+  <head>
+
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="icon" type="image/png" href="./favicon.png" >
+  
+    <title>.</title>
+    <style>
+      .fourOhFourBg{
+        background: black; 
+        width: 100vw; 
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+        
+      }
+      .fourOhFourTitle{
+        position: absolute;
+        margin-left: auto;
+        height: auto;
+        width: auto;
+        padding: 15px;
+        text-align: center;
+        top: 50%;
+        right: 12%;
+        transform:translateY(-50%);
+
+        
+      }
+      .fourOhFourTitle h1{
+            font-size: 3em;
+        }
+      .fourOhFourTitle h2{
+            font-size: 1.5em;
+        }
+
+
+      .fourOhFourContainer{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background: #07070a;
+        background-size: 1600px;
+        background-position: center 420px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        
+      }
+
+      .fourOhFourImg{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 2vw;
+      }
+      .fourOhFourImg img{
+        width: 400px;
+      }
+
+      .fourOhFour{
+        position: absolute;
+        z-index: -1;
+        color: #060606;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        font-size: 11.12vw;
+        word-break: break-all;
+        font-family: 'ZenDots';
+        overflow: hidden;
+        line-height: 82%;
+      }
+
+      @media screen and (max-width: 1280px) {
+          .fourOhFourTitle h1{
+            font-size: 1.8em;
+          }
+          .fourOhFourTitle h2{
+            font-size: 1em;
+          }
+          .fourOhFourTitle{
+            right: 5%;
+          }
+          .fourOhFour{
+            font-size: 14.28vw;
+          }
+      }
+      
+
+      @media screen and (max-width: 780px) {
+            .fourOhFourContainer{
+                height: 350px;
+            }
+            .fourOhFour{
+              font-size: 19.96vw;
+            }
+
+            .fourOhFourTitle{
+                right: 50%;
+                transform: translateX(50%);
+                bottom: 0;
+                width: 100%;
+            }
+            .fourOhFourImg img{
+                width: 200px;
+            }
+            .fourOhFourImg{
+                top: 0px;
+                transform: translateX(-50%);
+                left: 50%;
+                
+            }
+        }
+    </style>
+
+  </head>
+
+  <body class="fourOhFourBg">
+      <p class="fourOhFour">404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404</p>
+    <div class="fourOhFourContainer">
+        
+            <div class=" fourOhFourTitle " >
+                <a href="index.html">
+                    <div class="shake">
+                        <h1  class="titleFont">Looks like you took a wrong turn</h1>
+                        <h2 class="titleFont">There doesn't seem to be anything here...</h2>
+                        <small style="color: #636363;" >Or is there?..</small>
+                    </div>
+                    
+                </a>
+            </div>
+       
+        <div class="fourOhFourImg">
+            <img src="./img/skript404.png" alt="">
+        </div>
+    </div>
+  </body>
+</html>

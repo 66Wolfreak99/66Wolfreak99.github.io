@@ -1,0 +1,17 @@
+#nav{
+    box-shadow: inset 0px 1px 0px #ff63088a, inset 0 -1px #afd7ff9e;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #7a0105, #b80007);
+    border: none;
+}
+#themeCel.cel{
+    background: linear-gradient(0deg, #3b4857, #4f6276);
+    border-top: solid 1px #b4d9ff7a; 
+    border-bottom: solid 1px #1c354fb8;
+}
+.border-top{
+    border-top: solid 1px #b4d9ff7a; 
+}
+.border-bottom{
+    border-bottom: solid 1px #1c354fb8;
+}

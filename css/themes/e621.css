@@ -14,8 +14,8 @@ a:active {
     background-color: #152F56;
     border: solid 1px black;
 }
-#cel {
-    background-color: #1F3C67;
+.cel {
+    background-color: #1F3C67 !important;
 }
 
 #nav {

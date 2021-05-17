@@ -58,7 +58,7 @@
 }
 
 .titleFont {
-    font-family: 'ZenDots', cursive;
+    font-family: 'ZenDots', cursive !important;
     font-weight: 100;
 }
 
@@ -127,7 +127,7 @@ a span {
 }
 
 .cel {
-    background-color: #4d5f72 !important;
+    background-color: #4d5f72 !important ;
 }
 
 .links-flex{
@@ -480,31 +480,3 @@ a span {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* Modern 
-
-#nav{
-    box-shadow: inset 0px 1px 0px #ff63088a, inset 0 -1px #afd7ff9e;
-    border-radius: 5px;
-    background: linear-gradient(0deg, rgb(122 1 5), rgb(184 0 7));
-    border: none;
-}
-#themeCel.cel{
-    background: linear-gradient(0deg, rgb(59 72 87), rgb(79 98 118));
-    border-top: solid 1px #b4d9ff7a; 
-    border-bottom: solid 1px #1c354fb8;
-}
-.border-top{
-    border-top: solid 1px #b4d9ff7a; 
-}
-.border-bottom{
-    border-bottom: solid 1px #1c354fb8;
-}*/

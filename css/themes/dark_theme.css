@@ -7,16 +7,16 @@ a:active {
 }
 
 #bkgc {
-    background-color: rgb(25 25 25);
+    background-color: #191919;
     border: solid 1px black;
 }
-#cel {
-    background-color: rgb(45 45 45);
+.cel {
+    background-color: #2d2d2d !important;
 }
 
 #nav {
-    background-color: rgb(2 2 2);
-    border: solid 1px rgb(121 121 121);
+    background-color: #020202;
+    border: solid 1px #797979;
 }
 
 .background, .background-characters {
