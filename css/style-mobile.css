@@ -54,6 +54,9 @@
         font-size: 1.1em;
     }
 
+    .character-element img{
+        width: 90px;
+    }
     
     .char-img-block{
         display: block;
@@ -117,7 +120,13 @@
 
     .art-legend{
         height: 40px ;
-        background: rgb(0 0 0 / 51%);
+        background: #00000061;
+        line-height: 18px;
+        padding-top: 3px;
+    }
+
+    .art-legend .title{
+        font-size: 17px;
     }
 
     .art-legend .title, .art-legend .date{

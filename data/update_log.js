@@ -1,6 +1,12 @@
 var update = {
     "updates": [
       {
+        "date": "May 19 2021",
+        "content": [
+            "Minor UI change in the Art page and Characters page"
+          ]
+      },
+      {
         "date": "May 17 2021",
         "content": [
             "I've added a custom 404 page",
@@ -33,7 +39,7 @@ var update = {
         "content": [
             "Minor UI change in Updates page",
             "I've released my first album, Rainfall! It's Drum n Bass! It's not perfect, as i'm still inexperienced when it comes to making music, but i'm pretty proud of it nonetheless!",
-            "You can download my single for free <a href='./home-banner/TWW-Rainfall/TWW_Rainfall.zip'>here</a>!"
+            "You can download my single for free <a href='./files/tunes/TWW_Rainfall.zip'>here</a>!"
   
           ]
       },
@@ -104,7 +110,6 @@ var update = {
       {
         "date": "April 20 2021",
         "content": [
-            "Hey there! Now the latest update will appear on the homepage! Pretty cool, huh?",
             "Minor tweaks. The latest update is now highlighted"
           ]
       },

@@ -1,9 +1,19 @@
+@font-face {
+    font-family: Courgette;
+    src: url('../../fonts/Courgette-Regular.ttf');
+}
+
+.titleFont, #nav{
+    font-family: 'Courgette', cursive !important;
+    letter-spacing: 0.08em;
+}
+
 a {
     color: #dce466;
 }
 
-a:hover{
-    color: #e9f2fa;
+a:hover {
+    color: #f3ff44;
 }
 
 a:active {
@@ -11,11 +21,11 @@ a:active {
 }
 
 #bkgc {
-    background-color: #638a5e;
-    border: solid 1px #7b8a1a;
+    background-color: #688c3e;
+    border: solid 1px #caa445;
 }
 .cel {
-    background-color: #7c924e !important;
+    background-color: #6d9e3c !important;
 }
 
 #nav {
@@ -24,7 +34,7 @@ a:active {
 }
 
 .background, .background-characters {
-    background-color: #4a5d35;
+    background-color: #587339;
 }
 
 .art-header-gradient {

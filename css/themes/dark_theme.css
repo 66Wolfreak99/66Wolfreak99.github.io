@@ -2,6 +2,10 @@ a {
     color: #ff2121;
 }
 
+a:hover {
+    color: #ff8d00;
+}
+
 a:active {
     color: #ababab;
 }

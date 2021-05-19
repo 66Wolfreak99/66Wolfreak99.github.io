@@ -150,9 +150,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Dragon-Sighting-839058422">
                                                 <img class="art-img" src="./art/digital/dragon sighting.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Dragon Sighting</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Dragon Sighting</span><br>
                                                 <span class="date">April 23 2020</span>
@@ -170,9 +167,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Firefox-Girl-872497985">
                                                 <img class="art-img" src="./art/digital/firefox girl.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Firefox Girl</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Firefox Girl</span><br>
                                                 <span class="date">March 7 2021</span>
@@ -189,9 +183,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Renard-Queenston-874512274">
                                                 <img class="art-img" src="./art/digital/renard_queenston.jpg" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Renard Queenston</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Renard Queenston</span><br>
                                                 <span class="date">March 27 2021</span>
@@ -210,9 +201,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Waking-up-is-hard-867895046">
                                                 <img class="art-img" src="./art/digital/eric morning.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Eric morning</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Eric morning</span><br>
                                                 <span class="date">January 22 2021</span>
@@ -234,9 +222,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Little-ghost-875127090">
                                                 <img class="art-img" src="./art/digital/hollow knight.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Little ghost</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Little ghost</span><br>
                                                 <span class="date">April 2 2021</span>
@@ -254,9 +239,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Negaren-850286605">
                                                 <img class="art-img" src="./art/digital/negaren.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Negaren</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Negaren</span><br>
                                                 <span class="date">August 29 2020</span>
@@ -274,9 +256,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Loona-s-sunset-selfie-867091245">
                                                 <img class="art-img" src="./art/digital/loona selfie.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Loona selfie</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Loona selfie</span><br>
                                                 <span class="date">January 14 2021</span>
@@ -295,9 +274,6 @@
                                             <a tabindex="0" target="_blank" href="https://www.deviantart.com/66wolfreak99/art/Rivet-the-lombax-878125618">
                                                 <img class="art-img" src="./art/digital/Rivet.png" alt="">
                                             </a>
-                                            <div class="art-legend-small">
-                                                <span class="title titleFont">Rivet the lombax</span>
-                                            </div>
                                             <div class="art-legend">
                                                 <span class="title titleFont" >Rivet the lombax</span><br>
                                                 <span class="date">April 30 2021</span>
@@ -371,25 +347,36 @@
         
     <style>
         .art-legend-test{
-            background: rgba(0, 0, 0, 0.51);
-            height: 18px;
+            background: #00000082;
+            height: 12px;
             width: 100%;
             position: absolute;
             bottom: 0px;
-            transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out, line-height 0.01s ease-in;
             padding-left: 5px;
             padding-right: 5px;
+            line-height: 11px;
         }
 
         .art-legend-test .title{
-            font-size: 10px;
+            font-size: 9px;
             transition: all 0.2s ease-out;
         }
 
-        .art-legend-test .date, .art-legend-test .desc{
+        .art-legend-test .date{
+            font-style: italic;
+            opacity: 0;
+            transition: all 0.2s ease-out;
+            font-size: 10px;
+            padding-left: 13px;
+        }
+
+        .art-legend-test .desc{
             opacity: 0;
             transition: all 0.2s ease-out;
             font-size: 15px;
+            width: 98%;
+            margin: auto;
         }
 
         .art-legend-card-bottom{
@@ -408,22 +395,24 @@
 
 
         .art-section-img-container:hover .art-legend-test{
-            background: rgb(0 0 0 / 88%);
-            height: 50px;
+            background: #000000e0;
+            height: 40px;
             width: 100%;
             position: absolute;
             bottom: 0px;
-            transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out, line-height none;
+            line-height: 17px;
+            padding-top: 3px;
         }
 
         .art-section-img-container:hover .art-legend-test .title{
             font-size: 18px;
             transition: all 0.2s ease-out;
+            padding: 3px;
         }
 
         .art-section-img-container:hover .art-legend-test .date, .art-section-img-container:hover .art-legend-test:hover .desc{
             opacity: 1;
-            font-size: 15px;
             transition: all 0.2s ease-out;
         }
 
@@ -454,8 +443,9 @@
             <div class="art-legend-test">
                 <span class="title titleFont" >Rivet the lombax</span><br>
                 <span class="date">April 30 2021</span> <br><br>
-                <span class="desc">So her name's Rivet, eh? <br>
-                    I had to draw that fem lombax from that new Ratchet and Clank game (that i can't play cuz i don't own a ps5 ;-; ) after her name was finally revealed!</span>
+                <p class="desc">So her name's Rivet, eh? <br>
+                    I had to draw that fem lombax from that new Ratchet and Clank game (that i can't play cuz i don't own a ps5 ;-; ) after her name was finally revealed!
+                </p>
                 <div class="art-legend-card-bottom">
                     <img style="margin: 3px; width: 20px;" src="./img/deviantart.png" alt="">
                     <img style="margin: 3px; width: 20px;" src="./img/furaff.png" alt="">
@@ -465,8 +455,8 @@
         </div>
         
 
-    </div>
-    -->
+    </div> -->
+   
 
     
 
