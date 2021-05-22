@@ -1,5 +1,11 @@
-var update = {
+var update_log = {
     "updates": [
+      {
+        "date": "May 22 2022",
+        "content": [
+            "Added a section in the home page that randomly selects a character to display, and clicking on it will navigate to it's respective bio page."
+          ]
+      },
       {
         "date": "May 19 2021",
         "content": [
@@ -184,8 +190,7 @@ var update = {
     ] 
   }
 
-update_log_stringify = JSON.stringify(update);
-update_log = JSON.parse(update_log_stringify);
+
 
 
 

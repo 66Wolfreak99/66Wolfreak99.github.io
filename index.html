@@ -56,7 +56,7 @@
         <table id="bkgc" class="table-width"   border="0" cellspacing="0" cellpadding="0" >
             <tbody>
                 <tr>
-                    <td id="themeCel" class="cel" colspan="3">
+                    <td id="themeCel" class="cel" style="position: relative;" colspan="3">
                         <center>
 
                             <!-- Menu -->
@@ -71,7 +71,7 @@
                                             <a id="nav" href="about.html" title="Go learn a little bit about me!">About</a>
                                         </td>
                                         <td>
-                                            <a id="nav" href="art.html" > Art</a>
+                                            <a id="nav" href="art.html" title="A small gallery showcasing some of my art!"> Art</a>
                                         </td>
                                         <td>
                                             <a id="nav" href="characters.html" title="Check out my furry OCs!">Characters</a>
@@ -83,6 +83,17 @@
                                     
                                 </tbody>
                             </table>
+              
+                            <a id="randomCharLink" >
+                            <div class="randomCharContainer">
+                                
+                                <div id="randomCharImg" class="randomCharImage">
+                                    <div class="randomCharGradient">
+                                    </div>
+                                </div>
+
+                            </div>
+                            </a>
     
                         </center>
                     </td>
@@ -109,6 +120,7 @@
 
                         <p>There's not much here but please, enjoy your stay! <br> And watch out for the big bad wolf.....</p>
                         <br><br>
+                
                     </td>
                     <td class="index-side-width" width="150px"  rowspan="1" valign="middle">
                         
@@ -117,6 +129,7 @@
                     
 
                 </tr>
+                
                 
                 <!-- Links -->
                 <tr>
@@ -138,14 +151,11 @@
                     </td>
                 </tr>
                 
-                <tr>
-                    <td>
-                        
-                    </td>
-                </tr>
+                
 
             </tbody>
         </table>
+        
 
         
         
@@ -197,8 +207,8 @@
 
     
 
-  
-                <!--
+
+                
                    <div align='center' class="count-display">
                         <a title="" href='https://www.free-website-hit-counter.com'>
                             <img src='https://www.free-website-hit-counter.com/c.php?d=9&id=126531&s=1' border='0' alt='Free Website Hit Counter'>
@@ -209,15 +219,20 @@
                                 Free website hit counter
                             </a>
                         </small>
-                    </div>-->
+                    </div>-
   
     
 
-    
+    <script src="./data/character_list.js"></script>
+    <script src="./script/characterScript.js"></script>
+
     <script src="./data/update_log.js"></script>
     <script src="./script/updateScript.js"></script>
+
+    
     
     <script>
+        window.onload = randomChar;
         loadDateData(lastUpdated);
         
     </script>

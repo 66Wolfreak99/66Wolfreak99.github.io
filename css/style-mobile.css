@@ -37,6 +37,10 @@
         font-size: 1.3em;
     }
 
+    .randomCharContainer{
+        display: none;
+    }
+
     .about-about{
         display: block;
         width: auto;
