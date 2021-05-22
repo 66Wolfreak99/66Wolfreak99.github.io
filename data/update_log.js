@@ -1,7 +1,7 @@
 var update_log = {
     "updates": [
       {
-        "date": "May 22 2022",
+        "date": "May 22 2021",
         "content": [
             "Added a section in the home page that randomly selects a character to display, and clicking on it will navigate to it's respective bio page."
           ]
