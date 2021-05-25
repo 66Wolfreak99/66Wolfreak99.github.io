@@ -4,7 +4,7 @@ var update_log = {
         "date": "May 25 2021",
         "content": [
             "I've added an error message if the javascript doesn't work, and have moved the characters list to a separate Javascript file just like the update logs.",
-            "<a href='./characers/char_rokka.html'>Rokka</a>'s bio page has been finished!",
+            "<a href='./characters/char_rokka.html'>Rokka</a>'s bio page has been finished!",
             "I've experimented with some new character bio image designs, and i'm pretty happy with the one I came up with! Only Skript and Rokka have these new bio pics so far.",
           ]
       },
