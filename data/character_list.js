@@ -5,80 +5,88 @@ var character_list = {
             "code": "eric",
             "image": "./img/char_img/eric_thb.png",
             "page": "./characters/char_eric.html",
-            "name": "Eric Stryke",
-            "bioPage": true
+            "name": {"first":"Eric", "last":"Stryke" },
+            "notWip": true
         },
 
         {
             "code": "zack",
             "image": "./img/char_img/zack_thb.png",
             "page": "./characters/char_zack.html",
-            "name": "Zack Lockheart",
-            "bioPage": true
-        },
-
-        {
-            "code": "meihal",
-            "image": "./img/char_img/meihal_thb.png",
-            "page": "./characters/char_meihal.html",
-            "name": "Meihal",
-            "bioPage": true
+            "name": {"first":"Zack", "last":"Lockheart" },
+            "notWip": true
         },
 
         {
             "code": "andy",
             "image": "./img/char_img/andy_thb.png",
             "page": "./characters/char_andy.html",
-            "name": "Andromeda",
-            "bioPage": true
+            "name": {"first":"Andromeda", "last":"'Andy'" },
+            "notWip": true
+        },
+
+        {
+            "code": "meihal",
+            "image": "./img/char_img/meihal_thb.png",
+            "page": "./characters/char_meihal.html",
+            "name": {"first":"Meihal", "last":"" },
+            "notWip": true
+        },
+
+        {
+            "code": "tya",
+            "image": "",
+            "page": "",
+            "name": {"first":"Tya", "last":"Meley" },
+            "notWip": false
         },
 
         {
             "code": "juvia",
             "image": "",
             "page": "",
-            "name": "Juvia ",
-            "bioPage": false
+            "name": {"first":"Juvia", "last":"Valedryn" },
+            "notWip": false
         },
 
         {
             "code": "fluffy",
             "image": "",
             "page": "",
-            "name": "Fluffy ",
-            "bioPage": false
+            "name": {"first":"Fluffy", "last":"" },
+            "notWip": false
         },
 
         {
             "code": "szahag",
             "image": "",
             "page": "",
-            "name": "Szahag ",
-            "bioPage": false
+            "name": {"first":"Szahag", "last":"" },
+            "notWip": false
         },
 
         {
             "code": "rokka",
-            "image": "",
-            "page": "",
-            "name": "Rokka ",
-            "bioPage": false
+            "image": "./img/char_img/rokka_thb.png",
+            "page": "./characters/char_rokka.html",
+            "name": {"first":"Rokka", "last":"" },
+            "notWip": true
         },
 
         {
             "code": "ruki",
-            "image": "",
+            "image": "./img/char_img/ruki_thb.png",
             "page": "",
-            "name": "Ruki ",
-            "bioPage": false
+            "name": {"first":"Ruki", "last":"" },
+            "notWip": false
         },
 
         {
             "code": "skript",
             "image": "./img/char_img/skript_thb.png",
             "page": "./characters/char_skript.html",
-            "name": "Skript",
-            "bioPage": true
+            "name": {"first":"Skript", "last":"" },
+            "notWip": true
         },
     ]
 }

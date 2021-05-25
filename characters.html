@@ -72,18 +72,26 @@
                         
                         <br><br>
                         <center>
+                            
                             <table class="cel" border="0"  cellspacing="15" cellpadding="3" width="100%" >
                                 <tbody >
                                     <tr>
                                         <td >
-                                            <div class="character-container">
-                                                <a class="character-element" href="characters/char_eric.html">
+                                            
+                                            <div id="charContainer" class="character-container">
+                                                <div style="text-align: center; vertical-align: middle;">
+                                                    <h1 class="titleFont" >Oops! Something went wrong!</h1>
+                                                    <h3 class="titleFont" >And Skript dropped his coffee...</h3>
+                                                    <p>Something went wrong that prevented a script from running. Either your browser has disabled Javascript, or you should just get a newer browser.</p>
+                                                    <img width="450px" src="./img/skriptfail.png" alt="">
+                                                </div>
+                                               <a class="character-element" href="characters/char_eric.html">
                                                     <img class="not-wip " src="img/char_img/eric_thb.png" alt=""> <br>
-                                                    Eric<!--  Stryke -->
+                                                    Eric 
                                                 </a>
                                                 <a class="character-element" href="characters/char_zack.html">
                                                     <img class="not-wip" src="img/char_img/zack_thb.png" alt=""> <br>
-                                                    Zack<!--  Lockheart -->
+                                                    Zack
                                                 </a>
                                                 <a class="character-element" href="characters/char_andy.html">
                                                     <img class="not-wip" src="img/char_img/andy_thb.png" alt=""> <br>
@@ -117,12 +125,6 @@
                                                     <img class="not-wip" src="img/char_img/skript_thb.png" alt=""> <br>
                                                     Skript
                                                 </a>
-                                                
-
-                                                
-                                                
-
-
                                             </div>
 
                                         </td>
@@ -243,7 +245,11 @@
         
     </center>
 
-    
+    <script src="./data/character_list.js"></script>
+    <script src="./script/characterScript.js"></script>
+    <script>
+        loadCharList(characterContainer)
+    </script>
 
   </body>
 
