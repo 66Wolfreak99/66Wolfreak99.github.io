@@ -1,6 +1,12 @@
 var update_log = {
     "updates": [
       {
+        "date": "May 31 2021",
+        "content": [
+            "A very minor fix on the images in the art page"
+          ]
+      },
+      {
         "date": "May 25 2021",
         "content": [
             "I've added an error message if the javascript doesn't work, and have moved the characters list to a separate Javascript file just like the update logs.",

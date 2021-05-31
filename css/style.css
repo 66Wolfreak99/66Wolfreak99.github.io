@@ -399,7 +399,7 @@ a span {
 }*/
 .art-img {
     width: 100%;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
 }
 .art-legend{
     background: rgba(0, 0, 0, 0.51);
@@ -407,7 +407,7 @@ a span {
     width: 100%;
     position: absolute;
     bottom: 0px;
-    transition: all 0.2s ease-out, line-height 0s ease-in;
+    transition: all 0.2s ease-out, line-height 0.1s cubic-bezier(0.22, 1.16, 0.63, 0.84);
     padding-left: 5px;
     padding-right: 5px;
     line-height: 11px;
@@ -421,7 +421,7 @@ a span {
 .art-legend .date{
     font-style: italic;
     opacity: 0;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s cubic-bezier(0, 0.25, 0.66, 0.91);
     font-size: 10px;
     padding-left: 13px;
 }
@@ -468,7 +468,7 @@ a span {
 
 .art-section-img-container:hover .art-legend .date, .art-section-img-container:hover .art-legend:hover .desc{
     opacity: 1;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s cubic-bezier(0.85, -0.08, 0.4, 1.04);
 }
 
 
