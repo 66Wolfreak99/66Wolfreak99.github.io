@@ -106,7 +106,7 @@
                 <tr>
 
                     <td class="index-side-width" width="150px"  rowspan="1" valign="middle">
-                        <img class="bigimg" width="150px" src="img/eric_drawing.png" alt="">
+                        <img  class="bigimg" width="150px" src="img/eric_drawing.png" alt="">
                     </td>
 
                     <td  valign="middle" style="text-align: center; padding:5px">
@@ -210,8 +210,8 @@
 
     
 
-                <!--
-                   <div align='center' class="count-display">
+                <div id="countContainer">
+                  <div align='center' class="count-display">
                         <a title="" href='https://www.free-website-hit-counter.com'>
                             <img src='https://www.free-website-hit-counter.com/c.php?d=9&id=126531&s=1' border='0' alt='Free Website Hit Counter'>
                         </a> <br>
@@ -221,8 +221,8 @@
                                 Free website hit counter
                             </a>
                         </small>
-                    </div>-->
-  
+                    </div>
+                </div>
     
 
     <script src="./data/character_list.js"></script>
@@ -236,7 +236,17 @@
     <script>
         window.onload = randomChar;
         loadDateData(lastUpdated);
+
+        let counter = false
+        function commentEl(){
+            let el = document.getElementById('countContainer');
+            if(counter == false){
+                el.innerHTML = '<!--' + el.innerHTML + '-->'
+            }
+        }
         
+        
+
     </script>
 
   </body>
