@@ -1,6 +1,13 @@
 var update_log = {
     "updates": [
       {
+        "date": "June 1 2021",
+        "content": [
+            "I've decided to go for a different design for the bio images, which showed the character in it's entirety.",
+            "Some characters will now have an 'accessories' section in their bio, accompanied with custom images for each of them!",
+          ]
+      },
+      {
         "date": "May 25 2021",
         "content": [
             "I've added an error message if the javascript doesn't work, and have moved the characters list to a separate Javascript file just like the update logs.",

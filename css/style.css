@@ -271,6 +271,17 @@ a span {
 
 
 /* -------- Character page -------- */
+.char-img-bg{
+    background: linear-gradient(-25deg,#fff, #4d5f7200 50%);
+    text-align: right;
+    border-radius: 10px;
+
+}
+
+.char-img{
+    max-width: 340px;
+    max-height: 400px;
+}
 
 .not-final {
     position: relative;
@@ -288,6 +299,19 @@ a span {
     border: solid 1px #9b0006;
     color: #9b0006;
     font-weight: bold;
+}
+
+.accessories-container{
+    text-align: center;
+}
+.accessories-item{
+    text-align:center; display:inline-block; margin: 6px;
+}
+.accessories-item img{
+    width: 68px;
+}
+.accessories-item span{
+    font-size: 11px;
 }
 
 /* ---------------- */

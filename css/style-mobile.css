@@ -69,6 +69,11 @@
     .char-desc-block{
         display: block;
     }
+
+    .char-img{
+        max-width: 280px;
+    }
+
     #censor{
         width: 69px;
     }
