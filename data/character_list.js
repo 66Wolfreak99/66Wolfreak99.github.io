@@ -76,9 +76,9 @@ var character_list = {
         {
             "code": "ruki",
             "image": "./img/char_img/ruki_thb.png",
-            "page": "",
+            "page": "./characters/char_ruki.html",
             "name": {"first":"Ruki", "last":"" },
-            "notWip": false
+            "notWip": true
         },
 
         {

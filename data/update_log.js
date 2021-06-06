@@ -1,10 +1,17 @@
 var update_log = {
     "updates": [
       {
+        "date": "June 6 2021",
+        "content": [
+            "I've added <a href='./characters/char_ruki'>Ruki</a>'s bio page! Artwork isn't final however. I've yet to do more art of him.",
+
+          ]
+      },
+      {
         "date": "June 1 2021",
         "content": [
             "I've decided to go for a different design for the bio images, which showed the character in it's entirety.",
-            "Some characters will now have an 'accessories' section in their bio, accompanied with custom images for each of them!",
+            "Some characters will now have an 'accessories' section in their bio, accompanied with custom images for each of them!"
           ]
       },
       {
