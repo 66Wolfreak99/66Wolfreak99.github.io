@@ -217,6 +217,11 @@ a span {
     border-collapse: collapse;
 }
 
+table.menu-padding {
+    position: relative;
+    z-index: 5;
+}
+
 
 /* ---------------- */
 
