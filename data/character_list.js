@@ -34,26 +34,10 @@ var character_list = {
         },
 
         {
-            "code": "tya",
-            "image": "",
-            "page": "",
-            "name": {"first":"Tya", "last":"Meley" },
-            "notWip": false
-        },
-
-        {
             "code": "juvia",
             "image": "",
             "page": "",
             "name": {"first":"Juvia", "last":"Valedryn" },
-            "notWip": false
-        },
-
-        {
-            "code": "fluffy",
-            "image": "",
-            "page": "",
-            "name": {"first":"Fluffy", "last":"" },
             "notWip": false
         },
 
