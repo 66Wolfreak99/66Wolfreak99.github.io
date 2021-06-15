@@ -5,6 +5,7 @@ var characterContainer = document.getElementById("charContainer")
 
 console.log(character_list)
 
+/** Loads all characters from the array and displays them in the character screen */
 function loadCharList(el){
 
     el.innerHTML = ""
@@ -42,6 +43,7 @@ function loadCharList(el){
     })
 }
 
+/** Selects a random character in the characters list to display in the home page */
 function randomChar(){
 
     const random_character_list = character_list.character.filter(function (char) {return char.page && char.image !== ""});

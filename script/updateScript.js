@@ -1,6 +1,7 @@
 dom = document.getElementById("test");
 lastUpdated = document.getElementById("last-updated");
 
+/** Fetches the latest update and displays its date */
 function loadDateData(el){
     el.innerHTML = "<span style='font-style:italic; font-weight:bold'>Last updated: </span>";
     let u = update_log.updates[0];
@@ -13,7 +14,7 @@ function loadDateData(el){
 
 
 
-
+/** Fetches all updates from the update logs and displays them in the updates page */
 function loadData(el){
     
     el.innerHTML = "<tr class='current'></tr>";

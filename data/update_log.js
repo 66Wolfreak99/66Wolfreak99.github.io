@@ -1,3 +1,4 @@
+/** An array containing the site's update history */
 var update_log = {
     "updates": [
       {
