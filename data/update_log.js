@@ -2,6 +2,13 @@
 var update_log = {
     "updates": [
       {
+        "date": "June 30 2021",
+        "content": [
+            "I've added images for Skript's accessories, as well as <a href='./characters/char_juvia.html'>Juvia</a>'s bio page!",
+
+          ]
+      },
+      {
         "date": "June 6 2021",
         "content": [
             "I've added <a href='./characters/char_ruki'>Ruki</a>'s bio page! Artwork isn't final however. I've yet to do more art of him.",
