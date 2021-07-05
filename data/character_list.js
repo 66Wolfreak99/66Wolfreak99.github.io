@@ -83,7 +83,7 @@ var character_list = {
 
         {
             "code": "juvia",
-            "notWip": false,
+            "notWip": true,
             "image": "./img/char_img/juvia_thb.png",
             "full_image":"./img/char_img/juvia.png",
             "page": "./characters/char_juvia.html",
