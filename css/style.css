@@ -541,6 +541,24 @@ table.menu-padding {
 
 
 
+/* -------- Misc -------- */
+
+fieldset{
+    border: solid white 1px;
+    border-radius: 7px;
+}
+.miscLegend{
+    padding: 0px 0px; margin: -15px -2px;
+}
+.miscList li{
+    margin: 10px 0;
+}
+
+
+/* ---------------- */
+
+
+
 /* -------- Updates -------- */
 
 .current+tr td.cel {

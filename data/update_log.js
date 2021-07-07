@@ -2,6 +2,12 @@
 var update_log = {
     "updates": [
       {
+        "date": "July 7 2021",
+        "content": [
+            "I've created a new page called Misc! I'll put varios stufff in it that doesn't warrant a full page dedicated to them, such as my music or other web projects of mine. ",
+          ]
+      },
+      {
         "date": "June 30 2021",
         "content": [
             "I've added images for Skript's accessories, as well as <a href='./characters/char_juvia.html'>Juvia</a>'s bio page!",
