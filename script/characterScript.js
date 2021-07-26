@@ -3,8 +3,6 @@ var image = document.getElementById("randomCharImg");
 
 var characterContainer = document.getElementById("charContainer")
 
-console.log(character_list)
-
 /** Loads all characters from the array and displays them in the character screen */
 function loadCharList(el){
 
@@ -40,6 +38,60 @@ function loadCharList(el){
         el.appendChild(a);
         
 
+    })
+}
+
+function loadMiscCharList(el){
+    el.innerHTML = "";
+
+    character_list.miscCharacter.forEach( function(c){
+        if(c.image){
+            let entry = document.createElement("TR");
+
+            let tdImg = document.createElement('TD');
+            tdImg.classList.add("miscCharImg");
+            tdImg.valign = "middle";
+            tdImg.align = "center";
+
+            let a = document.createElement("A");
+            a.href = c.image;
+
+            let img = document.createElement("img")
+            img.src = c.image;
+            img.alt = c.code;
+
+            a.appendChild(img);
+            a.title = (c.name.first + " " + c.name.last);
+
+            tdImg.appendChild(a);
+
+            entry.appendChild(tdImg);
+
+            let tdDesc = document.createElement("TD");
+            tdDesc.classList.add("cel");
+            tdDesc.classList.add("miscCharDesc")
+            tdDesc.style.verticalAlign = "top"
+            tdDesc.align = "left";
+
+            let name = document.createElement("H2");
+            name.classList.add("titleFont");
+            name.innerHTML = c.name.first + " " + c.name.last;
+            tdDesc.appendChild(name);
+            tdDesc.innerHTML += 
+            "<b>Age: </b> <span>" + c.age + "</span> <br><br>" +
+            "<b>Gender: </b> <span>" + c.gender + "</span> <br><br>" +
+            "<b>Species: </b> <span>" + c.species + "</span> <br><br>" +
+            "<b>Occupation: </b> <span>" + c.occupation + "</span> <br><br>";
+
+            entry.appendChild(tdDesc);
+            el.appendChild(entry)
+        }
+
+
+
+        
+
+            
     })
 }
 

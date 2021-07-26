@@ -82,6 +82,26 @@ var character_list = {
         },
 
         {
+            "code": "mia",
+            "notWip": false,
+            "image": "",
+            "full_image":"",
+            "page": "",
+
+            "name": {"first":"Mia", "last":"Tayl" },
+            "age": "22",
+            "gender": "Female",
+            "species": "Cat",
+            "aoccupation": "Car mechanic, Assistannt, Copilot",
+            "hobbies": "Street racing, Collecting miniature cars",
+
+            "likes":["Cars", "Sleeping", "Pizza", "Going fast"],
+            "dislikes":["Vegetables", "Going to bed late", "Cheap pizzas"],
+
+            "accessories":[]
+        },
+
+        {
             "code": "juvia",
             "notWip": true,
             "image": "./img/char_img/juvia_thb.png",
@@ -102,25 +122,6 @@ var character_list = {
             
         },
 
-        {
-            "code": "szahag",
-            "notWip": false,
-            "image": "",
-            "full_image":"",
-            "page": "",
-
-            "name": {"first":"Szahag", "last":"" },
-            "age": "",
-            "gender": "",
-            "species": "",
-            "aoccupation": "",
-            "hobbies": "",
-
-            "likes":[],
-            "dislikes":[],
-
-            "accessories":[]
-        },
 
         {
             "code": "rokka",
@@ -195,9 +196,75 @@ var character_list = {
             ]
             
         },
+    ],
+
+    "miscCharacter":[
+        {
+            "code": "haku",
+            "image":"./img/char_img/misc/haku.png",
+            "name": {"first":"Haku", "last":"Laban"},
+            "age": "27",
+            "gender": "Female",
+            "species": "Shark",
+            "occupation":"Coast guard"
+        },
+        {
+            "code": "syx",
+            "image":"./img/char_img/misc/sylaxis.png",
+            "name": {"first":"Sylaxis", "last":"'Syx'"},
+            "age": "Unknown",
+            "gender": "Male",
+            "species": "Demon goat",
+            "occupation":"Unknown"
+        },
+        {
+            "code": "fluffy",
+            "image":"",
+            "name": {"first":"Fluffy", "last":""},
+            "age": "6",
+            "gender": "Male",
+            "species": "Drakit",
+            "occupation":"Eric's pet"
+        },
+        {
+            "code": "kodi",
+            "image":"./img/char_img/misc/kodi.png",
+            "name": {"first":"Kodi", "last":"Vangar"},
+            "age": "25",
+            "gender": "Male",
+            "species": "Wolf",
+            "occupation":"Music producer"
+        },
+        {
+            "code": "jester",
+            "image":"",
+            "name": {"first":"Jester", "last":"Vangar"},
+            "age": "25",
+            "gender": "Male",
+            "species": "Wolf",
+            "occupation":"Drummer"
+        },
+        {
+            "code": "sha",
+            "image":"",
+            "name": {"first":"Sha", "last":"Vangar"},
+            "age": "24",
+            "gender": "Female",
+            "species": "Wolf",
+            "occupation":"Singer"
+        },
+        {
+            "code": "syko",
+            "image":"./img/char_img/misc/syko.png",
+            "name": {"first":"Syko", "last":""},
+            "age": "24",
+            "gender": "Male",
+            "species": "Jackal",
+            "occupation":"Mentally unstable killer"
+        }
     ]
 }
-console.log(character_list)
+
 
 
 
