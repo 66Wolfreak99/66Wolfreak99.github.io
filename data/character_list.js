@@ -7,6 +7,7 @@ var character_list = {
             "image": "./img/char_img/eric_thb.png",
             "full_image":"./img/char_img/eric.png",
             "page": "./characters/char_eric.html",
+            "color": "#e2a03e",
 
             "name": {"first":"Eric", "last":"Stryke" },
             "age": "21",
@@ -27,9 +28,10 @@ var character_list = {
             "image": "./img/char_img/zack_thb.png",
             "full_image":"./img/char_img/zack.png",
             "page": "./characters/char_zack.html",
+            "color": "#e2a03e",
 
             "name": {"first":"Zack", "last":"Lockheart" },
-            "age": "19",
+            "age": "20",
             "gender": "Male",
             "species": "Red Fox",
             "aoccupation": "Student, Fast-Food Worker",
@@ -47,6 +49,7 @@ var character_list = {
             "image": "./img/char_img/andy_thb.png",
             "full_image":"./img/char_img/andy.png",
             "page": "./characters/char_andy.html",
+            "color": "#e2a03e",
 
             "name": {"first":"Andromeda", "last":"'Andy'" },
             "age": "31",
@@ -67,6 +70,7 @@ var character_list = {
             "image": "./img/char_img/meihal_thb.png",
             "full_image":"./img/char_img/meihal.png",
             "page": "./characters/char_meihal.html",
+            "color": "#e2a03e",
 
             "name": {"first":"Meihal", "last":"" },
             "age": "23",
@@ -84,9 +88,10 @@ var character_list = {
         {
             "code": "mia",
             "notWip": false,
-            "image": "",
-            "full_image":"",
+            "image": "./img/char_img/mia_thb.png",
+            "full_image":"./img/char_img/mia.png",
             "page": "",
+            "color": "#e2a03e",
 
             "name": {"first":"Mia", "last":"Tayl" },
             "age": "22",
@@ -107,6 +112,7 @@ var character_list = {
             "image": "./img/char_img/juvia_thb.png",
             "full_image":"./img/char_img/juvia.png",
             "page": "./characters/char_juvia.html",
+            "color": "#53ba4f",
 
             "name": {"first":"Juvia", "last":"Valedryn" },
             "age": "23",
@@ -129,6 +135,7 @@ var character_list = {
             "image": "./img/char_img/rokka_thb.png",
             "full_image":"./img/char_img/rokka.png",
             "page": "./characters/char_rokka.html",
+            "color": "#bfbfbf",
 
             "name": {"first":"Rokka", "last":"" },
             "age": "21 in human years",
@@ -154,6 +161,7 @@ var character_list = {
             "image": "./img/char_img/ruki_thb.png",
             "full_image":"./img/char_img/ruki.png",
             "page": "./characters/char_ruki.html",
+            "color": "#e2a03e",
 
             "name": {"first":"Ruki", "last":"" },
             "age": "22 in human years",
@@ -178,6 +186,7 @@ var character_list = {
             "image": "./img/char_img/skript_thb.png",
             "full_image":"./img/char_img/skript.png",
             "page": "./characters/char_skript.html",
+            "color": "#977d43",
 
             "name": {"first":"Skript", "last":"" },
             "age": "Unconfirmed. mental age of 20",

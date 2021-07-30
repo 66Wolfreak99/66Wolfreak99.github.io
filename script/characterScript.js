@@ -19,7 +19,8 @@ function loadCharList(el){
 
         let img = document.createElement("img");
         if(c.image !== ""){
-            img.src = c.image
+            img.src = c.image;
+            img.style.backgroundColor = c.color
         }else{
             img.src = "img/placeholder.png"
         }
@@ -108,6 +109,7 @@ function randomChar(){
         link.href = random_character_list[random].page;
         image.src = random_character_list[random].image;
         image.style.backgroundImage = "url(" +  random_character_list[random].image +")";
+        image.style.backgroundColor = random_character_list[random].color;
         
         
     
