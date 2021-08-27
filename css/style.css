@@ -343,6 +343,14 @@ table.menu-padding {
     font-size: 11px;
 }
 
+.extra-list{
+    margin-top: 0;
+}
+
+.extra-list li{
+    margin: 3px 0;
+}
+
 /* ---------------- */
 
 

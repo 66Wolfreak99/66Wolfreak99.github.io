@@ -1,6 +1,14 @@
 /** An array containing the site's update history */
 var update_log = {
     "updates": [
+
+      {
+        "date": "August 27 2021",
+        "content": [
+            "I've added 'Extras' sections to my OCs that contain some artwork such as refsheets",
+            "Also added some wallpapers in the Art page"
+          ]
+      },
       {
         "date": "July 30 2021",
         "content": [

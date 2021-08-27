@@ -6,6 +6,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/eric_thb.png",
             "full_image":"./img/char_img/eric.png",
+            "refsheet":"",
             "page": "./characters/char_eric.html",
             "color": "#e2a03e",
 
@@ -27,6 +28,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/zack_thb.png",
             "full_image":"./img/char_img/zack.png",
+            "refsheet":"zack_ref.png",
             "page": "./characters/char_zack.html",
             "color": "#e2a03e",
 
@@ -48,6 +50,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/andy_thb.png",
             "full_image":"./img/char_img/andy.png",
+            "refsheet":"",
             "page": "./characters/char_andy.html",
             "color": "#e2a03e",
 
@@ -69,6 +72,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/meihal_thb.png",
             "full_image":"./img/char_img/meihal.png",
+            "refsheet":"meihal_ref.png",
             "page": "./characters/char_meihal.html",
             "color": "#e2a03e",
 
@@ -90,6 +94,7 @@ var character_list = {
             "notWip": false,
             "image": "./img/char_img/mia_thb.png",
             "full_image":"./img/char_img/mia.png",
+            "refsheet":"mia_refpng",
             "page": "",
             "color": "#e2a03e",
 
@@ -111,6 +116,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/juvia_thb.png",
             "full_image":"./img/char_img/juvia.png",
+            "refsheet":"",
             "page": "./characters/char_juvia.html",
             "color": "#53ba4f",
 
@@ -134,6 +140,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/rokka_thb.png",
             "full_image":"./img/char_img/rokka.png",
+            "refsheet":"rokka_ref.png",
             "page": "./characters/char_rokka.html",
             "color": "#bfbfbf",
 
@@ -160,6 +167,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/ruki_thb.png",
             "full_image":"./img/char_img/ruki.png",
+            "refsheet":"",
             "page": "./characters/char_ruki.html",
             "color": "#e2a03e",
 
@@ -185,6 +193,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/skript_thb.png",
             "full_image":"./img/char_img/skript.png",
+            "refsheet":"skript_ref.png",
             "page": "./characters/char_skript.html",
             "color": "#977d43",
 
