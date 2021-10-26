@@ -14,7 +14,7 @@ var character_list = {
             "age": "21",
             "gender": "Male",
             "species": "Grey Wolf / Bloodhound",
-            "aoccupation": "Artist, Student",
+            "occupation": "Artist, Student",
             "hobbies": "Video games, Drawing, Collecting toys",
 
             "likes":["Drawing", "Video Games", "Small animals", "Burgers"],
@@ -36,7 +36,7 @@ var character_list = {
             "age": "20",
             "gender": "Male",
             "species": "Red Fox",
-            "aoccupation": "Student, Fast-Food Worker",
+            "occupation": "Student, Fast-Food Worker",
             "hobbies": "Road trips, Band Guitarist, Video Games",
 
             "likes":["Playing music", "Road trips", "Making new friends", "Eric"],
@@ -58,7 +58,7 @@ var character_list = {
             "age": "31",
             "gender": "Male",
             "species": "Protogen",
-            "aoccupation": "DJ",
+            "occupation": "DJ",
             "hobbies": "Singing, Making music, Video games",
             
             "likes":["Music", "Staying in bed all day", "DJing", "Being cute"],
@@ -80,7 +80,7 @@ var character_list = {
             "age": "23",
             "gender": "Female",
             "species": "Furred dragon",
-            "aoccupation": "Car mechanic, Racer",
+            "occupation": "Car mechanic, Racer",
             "hobbies": "Crafting gadgets, Car modification, Video games",
 
             "likes":["Cars", "Mechanics", "Racing", "Spicy noodles", "Video games", "Eric"],
@@ -91,22 +91,22 @@ var character_list = {
 
         {
             "code": "mia",
-            "notWip": false,
+            "notWip": true,
             "image": "./img/char_img/mia_thb.png",
             "full_image":"./img/char_img/mia.png",
             "refsheet":"mia_refpng",
-            "page": "",
+            "page": "./characters/char_mia.html",
             "color": "#e2a03e",
 
             "name": {"first":"Mia", "last":"Tayl" },
             "age": "22",
             "gender": "Female",
             "species": "Cat",
-            "aoccupation": "Car mechanic, Assistannt, Copilot",
-            "hobbies": "Street racing, Collecting miniature cars",
+            "occupation": "Car mechanic, Assistant, Copilot",
+            "hobbies": "Sleeping, Street racing, Collecting miniature cars",
 
-            "likes":["Cars", "Sleeping", "Pizza", "Going fast"],
-            "dislikes":["Vegetables", "Going to bed late", "Cheap pizzas"],
+            "likes":["Cars", "Sleeping", "Pizza", "Pats"],
+            "dislikes":["Vegetables","Cucumbers", "Going to bed late", "Rain"],
 
             "accessories":[]
         },
@@ -124,7 +124,7 @@ var character_list = {
             "age": "23",
             "gender": "Female",
             "species": "Maned wolf",
-            "aoccupation": "Princess, heir to the throne",
+            "occupation": "Princess, heir to the throne",
             "hobbies": "Pole dancing, walks in nature",
 
             "likes":["Performming in strip clubs", "Doing magic tricks", "Junk food", "Nature", "Magic"],
@@ -148,7 +148,7 @@ var character_list = {
             "age": "21 in human years",
             "gender": "Male",
             "species": "Avali",
-            "aoccupation": "Scout",
+            "occupation": "Scout",
             "hobbies": "Tinkering, creating gadgets with spare parts",
 
             "likes":["Music", "Making gadgets", "The thrill of exploring unknown and dangerous territories", "Hanging around with Ruki", "'Primitive' technologies"],
@@ -175,7 +175,7 @@ var character_list = {
             "age": "22 in human years",
             "gender": "Male",
             "species": "Avali",
-            "aoccupation": "Drone specialist",
+            "occupation": "Drone specialist",
             "hobbies": "Singing, Piloting drones",
 
             "likes":["Flying drones", "Tacos", "Snuggles", "Big drones"],
@@ -201,7 +201,7 @@ var character_list = {
             "age": "Unconfirmed. mental age of 20",
             "gender": "Male",
             "species": "Protogen",
-            "aoccupation": "Programmer",
+            "occupation": "Programmer",
             "hobbies": "Coding, making web pages, lamenting his compilation errors",
 
             "likes":["Programming", "Boasting about his skills", "Coffee"],

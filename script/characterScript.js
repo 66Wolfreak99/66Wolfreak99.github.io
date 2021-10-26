@@ -107,6 +107,7 @@ function randomChar(){
         console.log(random_character_list[random].name)
 
         link.href = random_character_list[random].page;
+        link.title = random_character_list[random].name.first + " " + random_character_list[random].name.last;;
         image.src = random_character_list[random].image;
         image.style.backgroundImage = "url(" +  random_character_list[random].image +")";
         image.style.backgroundColor = random_character_list[random].color;

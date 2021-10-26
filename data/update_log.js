@@ -3,6 +3,12 @@ var update_log = {
     "updates": [
 
       {
+        "date": "October 24 2021",
+        "content": [
+            "I've added <a href='./characters/char_mia.html'>Mia</a>'s bio page"
+          ]
+      },
+      {
         "date": "August 27 2021",
         "content": [
             "I've added 'Extras' sections to my OCs that contain some artwork such as refsheets",
