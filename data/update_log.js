@@ -3,6 +3,13 @@ var update_log = {
     "updates": [
 
       {
+        "date": "Feburary 17 2022",
+        "content": [
+            "Happy very late new years! Let's hope this year will be a good year!",
+            "I've updated Eric's bio image for now."
+          ]
+      },
+      {
         "date": "October 24 2021",
         "content": [
             "I've added <a href='./characters/char_mia.html'>Mia</a>'s bio page"
