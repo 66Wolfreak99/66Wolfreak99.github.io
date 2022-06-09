@@ -3,6 +3,12 @@ var update_log = {
     "updates": [
 
       {
+        "date": "june 9 2022",
+        "content": [
+            "I've added two new links in the Misc page. They're little animation and parallax tests using sonic sprites! ",
+          ]
+      }, 
+      {
         "date": "March 6 2022",
         "content": [
             "Updated Ruki's Bio image!",
