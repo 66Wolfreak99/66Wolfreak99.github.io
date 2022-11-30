@@ -3,7 +3,13 @@ var update_log = {
     "updates": [
 
       {
-        "date": "june 9 2022",
+        "date": "November 30 2022",
+        "content": [
+            "Finally added Eric's final bio image to his page. ",
+          ]
+      }, 
+      {
+        "date": "June 9 2022",
         "content": [
             "I've added two new links in the Misc page. They're little animation and parallax tests using sonic sprites! ",
           ]
