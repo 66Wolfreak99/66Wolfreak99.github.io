@@ -94,7 +94,7 @@ var character_list = {
             "notWip": true,
             "image": "./img/char_img/mia_thb.png",
             "full_image":"./img/char_img/mia.png",
-            "refsheet":"mia_refpng",
+            "refsheet":"mia_ref.png",
             "page": "./characters/char_mia.html",
             "color": "#e2a03e",
 
@@ -107,6 +107,28 @@ var character_list = {
 
             "likes":["Cars", "Sleeping", "Pizza", "Pats"],
             "dislikes":["Vegetables","Cucumbers", "Going to bed late", "Rain"],
+
+            "accessories":[]
+        },
+
+        {
+            "code": "kain",
+            "notWip": false,
+            "image": "./img/char_img/kain_thb.png",
+            "full_image":"./img/char_img/kain.png",
+            "refsheet":"kain_ref.png",
+            "page": "./characters/char_kain.html",
+            "color": "#bfbfbf",
+
+            "name": {"first":"Kain", "last":"Mortesprit" },
+            "age": "24",
+            "gender": "Male",
+            "species": "Wolf",
+            "occupation": "Biology student",
+            "hobbies": "Chess club president, Plantkeeping",
+
+            "likes":["Biology", "Plants", "strategy games"],
+            "dislikes":["Fast foods", "Horror movies", "Losing"],
 
             "accessories":[]
         },

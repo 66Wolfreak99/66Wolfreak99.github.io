@@ -3,6 +3,12 @@ var update_log = {
     "updates": [
 
       {
+        "date": "December 21 2023",
+        "content": [
+            "I've introduced a new character named Kain in the characters page. I haen't finished writing his bio so that will come later ",
+          ]
+      }, 
+      {
         "date": "November 30 2022",
         "content": [
             "Finally added Eric's final bio image to his page. ",
