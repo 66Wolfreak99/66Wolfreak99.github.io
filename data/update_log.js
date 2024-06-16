@@ -1,7 +1,12 @@
 /** An array containing the site's update history */
 var update_log = {
     "updates": [
-
+      {
+        "date": "June 16 2024",
+        "content": [
+            "I've finally gotten around to wwriting Kain's bio. ",
+          ]
+      }, 
       {
         "date": "December 21 2023",
         "content": [
