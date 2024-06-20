@@ -2,9 +2,15 @@
 var update_log = {
     "updates": [
       {
+        "date": "June 20 2024",
+        "content": [
+            "Ruki's accessories have been made at last. I plan on redoing the artwork for every character and overhauling the characters page. ",
+          ]
+      }, 
+      {
         "date": "June 16 2024",
         "content": [
-            "I've finally gotten around to wwriting Kain's bio. ",
+            "I've finally gotten around to writing Kain's bio. ",
           ]
       }, 
       {
