@@ -53,10 +53,10 @@
         </table>
 
         <!-- Main Content -->
-        <table id="bkgc" class="table-width"   border="0" cellspacing="0" cellpadding="0" >
+        <table class="bkgc table-width"   border="0" cellspacing="0" cellpadding="0" >
             <tbody>
                 <tr>
-                    <td id="themeCel" class="cel" style="position: relative;" colspan="3">
+                    <td  class="themeCel cel" style="position: relative;" colspan="3">
                         <center>
 
                             <!-- Menu -->
@@ -68,19 +68,19 @@
                                         
                                     
                                         <td>
-                                            <a id="nav" href="about.html" title="Go learn a little bit about me!">About</a>
+                                            <a class="nav" href="about.html" title="Go learn a little bit about me!">About</a>
                                         </td>
                                         <td>
-                                            <a id="nav" href="art.html" title="A small gallery showcasing some of my art!"> Art</a>
+                                            <a class="nav" href="art.html" title="A small gallery showcasing some of my art!"> Art</a>
                                         </td>
                                         <td>
-                                            <a id="nav" href="characters.html" title="Check out my furry OCs!">Characters</a>
+                                            <a class="nav" href="characters.html" title="Check out my furry OCs!">Characters</a>
                                         </td>
                                         <td>
-                                            <a id="nav" href="misc.html" title="A bunch of miscellaneous stuff">Misc</a>
+                                            <a class="nav" href="misc.html" title="A bunch of miscellaneous stuff">Misc</a>
                                         </td>
                                         <td>
-                                            <a id="nav" href="update.html" title="Update logs of my website">Updates</a>
+                                            <a class="nav" href="update.html" title="Update logs of my website">Updates</a>
                                         </td>
                                         
                                     </tr>
@@ -141,7 +141,7 @@
                 <!-- Links -->
                 <tr>
                    
-                    <td colspan="3" id="themeCel" class="cel" valign="bottom" height="20px" style="text-align: center; padding:5px" >
+                    <td colspan="3"  class="themeCel cel" valign="bottom" height="20px" style="text-align: center; padding:5px" >
                         <p>
                             <h3 class="titleFont">
                                 My art links
@@ -186,16 +186,14 @@
                 </div>
     
 
-    <script src="./data/character_list.js"></script>
-    <script src="./script/characterScript.js"></script>
-
+    <script type="module" src="script/characterScript.js"></script>
+    
     <script src="./data/update_log.js"></script>
     <script src="./script/updateScript.js"></script>
 
     
     
     <script>
-        window.onload = randomChar;
         loadDateData(lastUpdated);
 
         let counter = false
@@ -205,9 +203,6 @@
                 el.innerHTML = '<!--' + el.innerHTML + '-->'
             }
         }
-        
-        
-
     </script>
 
   </body>

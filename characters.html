@@ -16,7 +16,7 @@
 
   </head>
 
-  <body class="background-characters">
+  <body id="oldCharList" class="background-characters">
 
     <center>
         <!-- Banner -->
@@ -47,7 +47,7 @@
         </table>
         
         <!-- Main Content -->
-        <table id="bkgc" class="table-width"  border="0" cellspacing="0" cellpadding="10" >
+        <table class="bkgc table-width"  border="0" cellspacing="0" cellpadding="10" >
             <tbody>
             <!--    <tr cellpadding="1"  height="20px">
                     <td id="wip">
@@ -55,7 +55,7 @@
                     </td>
                 </tr>-->
                 <tr>
-                    <td id="themeCel" class="cel"> <a id="nav" href="index.html">Back to home</a>  | <span><b id="navBreadcrumb">Characters</b></span></td>
+                    <td  class="themeCel cel"> <a class="nav" href="index.html">Back to home</a>  | <span><b class="navBreadcrumb">Characters</b></span></td>
                 </tr>
                 
                 <tr>
@@ -63,7 +63,7 @@
                         
                         <h1 class="titleFont">Characters</h1>
                         <p style="padding-left: 9px;">
-                        Welcome to the characters page, where you can see my OCS, their personality and the backstories i made up for em! <br>
+                        Welcome to the characters page, where you can see my OCs, their personality and the backstories I made up for em! <br>
                         I write their personality traits and backstories as well as add some extra pics for each characters such as their ref sheets.
                         </p>
                         <!-- <p style="padding-left: 9px; ">
@@ -248,12 +248,7 @@
 
         
     </center>
-
-    <script src="./data/character_list.js"></script>
-    <script src="./script/characterScript.js"></script>
-    <script>
-        loadCharList(characterContainer)
-        loadMiscCharList(miscChar)
+    <script type="module" src="./script/characterScript.js">
     </script>
 
   </body>
