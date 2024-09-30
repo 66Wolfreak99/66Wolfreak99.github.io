@@ -34,7 +34,7 @@ function charList(){
         // creating link element
         const charButton = elementCreateAndAssign("a", {css:"character-element", attributeName:["href", "title"], attribute: ["#", `${characters[i].name.first} ${characters[i].name.last}`]});
 
-        // vreating and insertting image
+        // creating and inserting image
         const img = elementCreateAndAssign("img", {attributeName: ["src", "alt"], attribute:[characters[i].image, characters[i].name.first]});
         img.style.backgroundColor = characters[i].color;
         if(characters[i].notWip){img.classList.add("not-wip")} else {img.classList.add("wip")};
@@ -256,6 +256,50 @@ function createCharacterPage(char){
 
 }
 
+function URLcharLoad(){
+    const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+       const character = urlParams.get("char");
+    if (character) {
+        let singleChar 
+        characters.map((elem) => {
+            if(elem.code === character){
+                return singleChar = elem
+            }
+        });
+        
+        if(canSwitch ){
+                    
+                canSwitch=false;
+                currentChar = characters.indexOf(singleChar)+1;
+
+                console.log(currentChar)
+
+                const dom = document.getElementById("content");
+                const linkElements = document.getElementsByClassName("character-element");
+                for(const element of linkElements){
+                    element.classList.add("character-element-small");
+                }
+
+                content.style.opacity = "0";
+
+                setTimeout(()=>{
+                    dom.innerHTML = "";
+                    createCharacterPage(singleChar)
+                },200);
+
+                setTimeout(()=>{
+                    content.style.opacity = "1";
+                },400);
+
+                setTimeout(()=>{
+                    canSwitch=true;
+                },200);
+
+        };
+    }
+}
+
 /** Loads all characters from the array and displays them in the character screen */
 function loadCharList(){
     const element = document.getElementById("charContainer")
@@ -384,8 +428,9 @@ function randomChar(){
     const link = document.getElementById("randomCharLink");
     const image = document.getElementById("randomCharImg");
 
-    link.href = characters[random].page;
-    link.title = characters[random].name.first + " " + characters[random].name.last;;
+    // link.href = characters[random].page;
+    link.href = `./character-display.html?char=` + characters[random].code;
+    link.title = characters[random].name.first + " " + characters[random].name.last;
     image.src = characters[random].image;
     image.style.backgroundImage = `url( ${characters[random].image} )`;
     image.style.backgroundColor = characters[random].color;
@@ -394,6 +439,9 @@ function randomChar(){
 
 
 // createCharacterPage(characters[0])
+
+
+
 
 if(document.getElementById("dynamicChar")){
     charList()
@@ -406,4 +454,6 @@ if(document.getElementById("oldCharList")){
 if(document.getElementById("randomCharLink")){
     randomChar()
 }
+
+URLcharLoad()
 
