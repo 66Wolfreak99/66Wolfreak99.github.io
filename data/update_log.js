@@ -2,6 +2,12 @@
 var update_log = {
     "updates": [
       {
+        "date": "September 30 2024",
+        "content": [
+            "Brand new Characters page! Now it works as a dynamic single page. I've also redone all the character art, only missing Ruki, Rokka and Skript.",
+          ]
+      }, 
+      {
         "date": "June 20 2024",
         "content": [
             "Ruki's accessories have been made at last. I plan on redoing the artwork for every character and overhauling the characters page. ",
