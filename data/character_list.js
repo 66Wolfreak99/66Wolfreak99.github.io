@@ -156,7 +156,7 @@ const characters = [
 
         {
             code: "kain",
-            notWip: false,
+            notWip: true,
             image: "./img/char_img/kain_thb.png",
             full_image:"./img/char_img/kain.png",
             refsheet:"kain_ref.png",
