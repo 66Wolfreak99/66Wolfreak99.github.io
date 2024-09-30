@@ -268,7 +268,7 @@ function URLcharLoad(){
             }
         });
         
-        if(canSwitch ){
+        if(canSwitch && singleChar){
                     
                 canSwitch=false;
                 currentChar = characters.indexOf(singleChar)+1;

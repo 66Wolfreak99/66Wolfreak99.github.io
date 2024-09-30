@@ -242,7 +242,7 @@ const characters = [
 
             extras:[
                 ["Refsheet", "./img/char_img/refsheet/rokka_ref.png"],
-                ["Meet the pack!", "./img/char_img/refsheet/rokka_ref.png"],
+                ["Meet the pack!", "./img/char_img/refsheet/avali pack.png"],
                 ["Brothers and best friends", "./img/char_extra/rokka n ruki.png"],
             ]
         },
