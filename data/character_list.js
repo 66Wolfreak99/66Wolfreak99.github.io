@@ -8,7 +8,7 @@ const characters = [
             full_image:"./img/char_img/eric.png",
             refsheet:"",
             page: "./characters/char_eric.html",
-            color: "#e2a03e",
+            color: "#3d8ad8",
 
             name: {"first":"Eric", "last":"Stryke" },
             age: "21",
@@ -43,7 +43,7 @@ const characters = [
             full_image:"./img/char_img/zack.png",
             refsheet:"zack_ref.png",
             page: "./characters/char_zack.html",
-            color: "#e2a03e",
+            color: "#af8e5f",
 
             name: {"first":"Zack", "last":"Lockheart" },
             age: "20",
@@ -74,7 +74,7 @@ const characters = [
             full_image:"./img/char_img/andy.png",
             refsheet:"",
             page: "./characters/char_andy.html",
-            color: "#e2a03e",
+            color: "#101b2f",
 
             name: {"first":"Andromeda", "last":"'Andy'" },
             age: "31",
@@ -105,7 +105,7 @@ const characters = [
             full_image:"./img/char_img/meihal.png",
             refsheet:"meihal_ref.png",
             page: "./characters/char_meihal.html",
-            color: "#e2a03e",
+            color: "#1e98a2",
 
             name: {"first":"Meihal", "last":"" },
             age: "23",
@@ -133,7 +133,7 @@ const characters = [
             full_image:"./img/char_img/mia.png",
             refsheet:"mia_ref.png",
             page: "./characters/char_mia.html",
-            color: "#e2a03e",
+            color: "#55331e",
 
             name: {"first":"Mia", "last":"Tayl" },
             age: "22",
@@ -161,7 +161,7 @@ const characters = [
             full_image:"./img/char_img/kain.png",
             refsheet:"kain_ref.png",
             page: "./characters/char_kain.html",
-            color: "#bfbfbf",
+            color: "#909090",
 
             name: {"first":"Kain", "last":"Mortesprit" },
             age: "24",
@@ -189,7 +189,7 @@ const characters = [
             full_image:"./img/char_img/juvia.png",
             refsheet:"",
             page: "./characters/char_juvia.html",
-            color: "#53ba4f",
+            color: "#1d5db0",
 
             name: {"first":"Juvia", "last":"Valedryn" },
             age: "23",
@@ -219,7 +219,7 @@ const characters = [
             full_image:"./img/char_img/rokka.png",
             refsheet:"rokka_ref.png",
             page: "./characters/char_rokka.html",
-            color: "#bfbfbf",
+            color: "#9e590d",
 
             name: {"first":"Rokka", "last":"" },
             age: "21 in human years",
@@ -254,7 +254,7 @@ const characters = [
             full_image:"./img/char_img/ruki.png",
             refsheet:"",
             page: "./characters/char_ruki.html",
-            color: "#e2a03e",
+            color: "#3a7a1f",
 
             name: {"first":"Ruki", "last":"" },
             age: "22 in human years",
@@ -287,7 +287,7 @@ const characters = [
             full_image:"./img/char_img/skript.png",
             refsheet:"skript_ref.png",
             page: "./characters/char_skript.html",
-            color: "#977d43",
+            color: "#c28000",
 
             name: {"first":"Skript", "last":"" },
             age: "Unconfirmed. mental age of 20",

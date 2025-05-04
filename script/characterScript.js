@@ -6,7 +6,11 @@ import characters from "../data/character_list.js"
 let canSwitch = true
 let currentChar = 0
 
-
+function changeBgColor(color){
+    const background = document.getElementById("dynamicChar");
+    background.style.transition = "background-color 0.5s ease-in-out"
+    background.style.backgroundColor = color
+}
 
 
 function charList(){
@@ -84,6 +88,7 @@ function charList(){
 
 
 function createCharacterPage(char){
+    changeBgColor(char.color)
     const charInfo = [
         `${char.name.first} ${char.name.last}`,
         ["Age: ", char.age],
@@ -121,6 +126,7 @@ function createCharacterPage(char){
         setTimeout(()=>{
             dom.innerHTML = "";
             charList();
+            changeBgColor("#2F3D53")
         },200);
 
         setTimeout(()=>{
